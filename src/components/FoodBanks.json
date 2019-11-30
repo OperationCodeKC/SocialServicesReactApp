@@ -1,0 +1,38 @@
+[
+  {
+    "Name": "Name",
+    "Address": "Address",
+    "City": "City",
+    "State": "State",
+    "Zipcode": "Zipcode",
+    "Latitude": "Latitude",
+    "Longitude": "Longitude"
+  },
+  {
+    "Name": "Harvesters the Community Food Network",
+    "Address": "3801 Topping Ave",
+    "City": "Kansas City",
+    "State": "MO",
+    "Zipcode": "64129",
+    "Latitude": "39.0551725",
+    "Longitude": "-94.5155052"
+  },
+  {
+    "Name": "Seton Center Inc",
+    "Address": "2816 E 23rd St",
+    "City": "Kansas City",
+    "State": "MO",
+    "Zipcode": "64127",
+    "Latitude": "39.0849729",
+    "Longitude": "-94.5489297"
+  },
+  {
+    "Name": "Santa Fe Waystation Food Pantry",
+    "Address": "6422 Santa Fe Dr",
+    "City": "Mission",
+    "State": "KS",
+    "Zipcode": "66202",
+    "Latitude": "39.0118633",
+    "Longitude": "-94.6726786"
+  }
+]
