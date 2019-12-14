@@ -30,7 +30,7 @@ class App extends Component {
         <br/>
         <p>Here would be the map to show locations and nearest foodbank? </p>
         <br/>
-        <StartingPoint />
+        <StartingPoint latitude={coords.latitude} longitude={coords.longitude} />
         <table>
                 <tbody>
                     <tr>
@@ -40,18 +40,6 @@ class App extends Component {
                     <tr>
                         <td>longitude</td>
                         <td>{coords.longitude}</td>
-                    </tr>
-                    <tr>
-                        <td>altitude</td>
-                        <td>{coords.altitude}</td>
-                    </tr>
-                    <tr>
-                        <td>heading</td>
-                        <td>{coords.heading}</td>
-                    </tr>
-                    <tr>
-                        <td>speed</td>
-                        <td>{coords.speed}</td>
                     </tr>
                 </tbody>
             </table>
