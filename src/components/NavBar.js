@@ -4,7 +4,7 @@ class NavBar extends Component {
 
     render(){
     return(
-        <h1>NavBar Component nothing done yet</h1>
+        <h1> NavBar | Services | Shelter | Food | Health  </h1>
     )
 }
 }

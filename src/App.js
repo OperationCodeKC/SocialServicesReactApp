@@ -6,13 +6,20 @@ import NavBar from './components/NavBar.js';
 import StartingPoint from './components/StartingPoint.js';
 import { geolocated } from "react-geolocated";
 import './App.css';
-
+import ReactMapboxGl, { Layer, Feature, ZoomControl, GeoJSONLayer } from 'react-mapbox-gl';
+import geojson from 'geojson'
 
 class App extends Component {
   
   render(){
     const foodBanks = data
     const { isGeolocationAvailable, isGeolocationEnabled, coords } = this.props;
+    const Map = ReactMapboxGl({
+      accessToken:
+      'pk.eyJ1IjoiY29saW5waGlsbGlwczY3IiwiYSI6ImNrMGZvd2MyaDAxdG8zbHJ6MmFnNnZpaTUifQ.tJ63Dty8f2DWdS1jenXPCA'
+    });
+    const newInfo = geojson.parse(data, {Point:['Latitude','Longitude'], include:['Name']});
+
     return !isGeolocationAvailable ? (
       <div>Your browser does not support Geolocation</div>
   ) : !isGeolocationEnabled ? (
@@ -20,36 +27,40 @@ class App extends Component {
   ) : coords ? (
        <div className="App">
          
-        <h1>Social Services WebApp</h1>
+        <h1 className="title">Social Services WebApp</h1>
         <NavBar />
+        
         <Table foodBankData={foodBanks}/>
         <br/>
         <Button variant="contained" color="primary">
           Nearest Food Bank
         </Button>
-        <br/>
-        <p>Here would be the map to show locations and nearest foodbank? </p>
-        <br/>
+        
+        <div className="map">
+          <Map  className="mapbox" style={"mapbox://styles/mapbox/streets-v9"}
+                center={[coords.longitude, coords.latitude]}
+                containerStyle={{
+                height: '60vh',
+                width: '80vw'
+                }}>
+            <Layer type="symbol" id="marker" layout={{ 'icon-image': 'marker-15' }}>
+              <Feature coordinates={[-94.5155052, 39.0551725]} />          
+            </Layer>
+          <ZoomControl/>
+          </Map>
+        </div>
+        <div className="footer">
+        <p>Current lat/long {coords.latitude},{coords.longitude}</p>
         <StartingPoint latitude={coords.latitude} longitude={coords.longitude} />
-        <table>
-                <tbody>
-                    <tr>
-                        <td>latitude</td>
-                        <td>{coords.latitude}</td>
-                    </tr>
-                    <tr>
-                        <td>longitude</td>
-                        <td>{coords.longitude}</td>
-                    </tr>
-                </tbody>
-            </table>
+        </div>
         </div>
     ) : (
-      <div>Getting the location data&hellip; </div>
+      <div className="_welcome">Getting your current location...&hellip; </div>
   );
   }
  
 }  
+
 export default geolocated({
   positionOptions: {
       enableHighAccuracy: false,

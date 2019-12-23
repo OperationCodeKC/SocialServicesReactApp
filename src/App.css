@@ -1,31 +1,56 @@
 .App {
   text-align: center;
-  min-height: 100vh;
-  background-color: #5486eb;
+  background-image: url(pexels-photo-853168.jpeg);
 }
 
-.App-logo {
-  height: 40vmin;
+html{
+  background-color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+._welcome {
+  all: unset;
+  background-color: linear-gradient( #54D2EB, black) ;
+  color:white;
 }
 
 .Table {
-  background-color: #5486eb;
+  text-align: center;
   font-size: calc(1vw + 1vh + .5vmin);
   color: white;
- 
+}
+
+.title {
+  padding-top: 5vh;
+  font-size: calc(2vw + 2vh + .5vmin);
+  width: 100%;
+  color: white;
+  text-align: center;
+  } 
+
+.map{
+  padding: 2vh;
+}
+
+.mapbox {
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20vh;
+}
+
+.NavBar {
+  font-size: calc(1vw + 1vh + .5vmin);
+}
+
+.footer {
+  position: fixed;
+  z-index: 1;
+  float: bottom;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 2vh;
+  width: 100%;
+  background-image: linear-gradient( rgb(0,0,0,0),rgb(0,0,0,1));
+  color: white;
+  text-align: center;
 }
