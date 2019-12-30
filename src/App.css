@@ -40,6 +40,22 @@ html{
 
 .NavBar {
   font-size: calc(1vw + 1vh + .5vmin);
+  justify-content: center;
+}
+.navBarCards {
+  /* background-color: saddlebrown; */
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+}
+.column {
+  font-size: calc(1vw + 1vh + .5vmin);
+  margin: 1vh;
+  background-image: linear-gradient( rgba(255, 255, 255, 0),rgba(15, 130, 197, 0.25));
+  padding:1vh;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: black;
 }
 
 .footer {
@@ -53,4 +69,17 @@ html{
   background-image: linear-gradient( rgb(0,0,0,0),rgb(0,0,0,1));
   color: white;
   text-align: center;
+}
+
+.marker {
+  background-image: url(components/cat.jpg);
+  background-size: cover;
+  width: 1vh;
+  height: 1vh;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.medicMarkers {
+  visibility: visible;
 }
