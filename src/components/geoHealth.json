@@ -1,0 +1,28 @@
+[
+    {
+        "Name": "Family Health Care",
+        "Address": "300-340 Southwest Blvd",
+        "City": "Kansas City",
+        "State": "KS",
+        "Zipcode": "66103",
+        "lat": "39.0683633",
+        "lng": "-94.6132922"
+      },
+      {
+        "Name": "Mercy Health Free Clinic",
+        "Address": "9520 James A Reed Rd",
+        "City": "Kansas City",
+        "State": "MO",
+        "Zipcode": "64134",
+        "lat": "38.9505817",
+        "lng": "-94.49476"
+      },{
+        "Name": "Swope Health South",
+        "Address": "8827 Troost Ave",
+        "City": "Kansas City",
+        "State": "MO",
+        "Zipcode": "64131",
+        "lat": "38.9667499",
+        "lng": "-94.5767498"
+      }
+    ]
