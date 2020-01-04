@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-image: url(pexels-photo-853168.jpeg);
+  background-size: cover;
 }
 
 html{
@@ -14,9 +15,18 @@ html{
 }
 
 .Table {
-  text-align: center;
+  display:grid;
   font-size: calc(1vw + 1vh + .5vmin);
   color: white;
+  justify-content: center;
+  margin-bottom: 10vh;
+  padding-bottom: 15vh; 
+  background-image: linear-gradient( rgb(0,0,0,0),rgb(0,0,0,1));
+  /* border-style: solid;
+  border-radius: 15px;
+  border-color: red;
+  margin-block-end: auto; */
+  
 }
 
 .title {
@@ -35,7 +45,7 @@ html{
   display: inline-block;
   width: 100%;
   border-radius: 5px;
-  margin-bottom: 20vh;
+  margin-bottom: 1vh;
 }
 
 .NavBar {
@@ -43,7 +53,6 @@ html{
   justify-content: center;
 }
 .navBarCards {
-  /* background-color: saddlebrown; */
   display: grid;
   grid-template-columns: auto auto auto auto;
   justify-content: center;
@@ -65,21 +74,9 @@ html{
   left: 0;
   bottom: 0;
   padding-bottom: 2vh;
+  padding-top: 2vh;
   width: 100%;
   background-image: linear-gradient( rgb(0,0,0,0),rgb(0,0,0,1));
   color: white;
   text-align: center;
-}
-
-.marker {
-  background-image: url(components/cat.jpg);
-  background-size: cover;
-  width: 1vh;
-  height: 1vh;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.medicMarkers {
-  visibility: visible;
 }
