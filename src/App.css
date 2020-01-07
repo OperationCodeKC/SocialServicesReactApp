@@ -1,31 +1,82 @@
 .App {
   text-align: center;
-  min-height: 100vh;
-  background-color: #5486eb;
+  background-image: url(pexels-photo-853168.jpeg);
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
+html{
+  background-color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+._welcome {
+  all: unset;
+  background-color: linear-gradient( #54D2EB, black) ;
+  color:white;
 }
 
 .Table {
-  background-color: #5486eb;
+  display:grid;
   font-size: calc(1vw + 1vh + .5vmin);
   color: white;
- 
+  justify-content: center;
+  margin-bottom: 10vh;
+  padding-bottom: 15vh; 
+  background-image: linear-gradient( rgb(0,0,0,0),rgb(0,0,0,1));
+  /* border-style: solid;
+  border-radius: 15px;
+  border-color: red;
+  margin-block-end: auto; */
+  
+}
+
+.title {
+  padding-top: 5vh;
+  font-size: calc(2vw + 2vh + .5vmin);
+  width: 100%;
+  color: white;
+  text-align: center;
+  } 
+
+.map{
+  padding: 2vh;
+}
+
+.mapbox {
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 1vh;
+}
+
+.NavBar {
+  font-size: calc(1vw + 1vh + .5vmin);
+  justify-content: center;
+}
+.navBarCards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+}
+.column {
+  font-size: calc(1vw + 1vh + .5vmin);
+  margin: 1vh;
+  background-image: linear-gradient( rgba(255, 255, 255, 0),rgba(15, 130, 197, 0.25));
+  padding:1vh;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: black;
+}
+
+.footer {
+  position: fixed;
+  z-index: 1;
+  float: bottom;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  width: 100%;
+  background-image: linear-gradient( rgb(0,0,0,0),rgb(0,0,0,1));
+  color: white;
+  text-align: center;
 }

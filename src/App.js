@@ -1,18 +1,30 @@
 import React, { Component } from 'react';
 import Table from './components/FoodBanks.js';
-import data from './components/FoodBanks.json';
 import Button from '@material-ui/core/Button';
 import NavBar from './components/NavBar.js';
 import StartingPoint from './components/StartingPoint.js';
 import { geolocated } from "react-geolocated";
 import './App.css';
+import ReactMapboxGl, { Marker, ZoomControl} from 'react-mapbox-gl';
+import geojson from 'geojson';
+import geoFoodBanks from './components/geoBanks.json';
+import geoShelters from './components/geoShelters.json';
+import geoHealths from './components/geoHealth.json';
 
 
 class App extends Component {
-  
   render(){
-    const foodBanks = data
     const { isGeolocationAvailable, isGeolocationEnabled, coords } = this.props;
+    const Map = ReactMapboxGl({
+      accessToken:
+      'pk.eyJ1IjoiY29saW5waGlsbGlwczY3IiwiYSI6ImNrMGZvd2MyaDAxdG8zbHJ6MmFnNnZpaTUifQ.tJ63Dty8f2DWdS1jenXPCA'
+    },
+    
+    );
+    const geoFood = geojson.parse(geoFoodBanks, {Point:['lat','lng'], include:['Name']});
+    const geoShelter = geojson.parse(geoShelters, {Point:['lat','lng'], include:['Name']});
+    const geoHealth = geojson.parse(geoHealths, {Point:['lat','lng'], include:['Name']});
+
     return !isGeolocationAvailable ? (
       <div>Your browser does not support Geolocation</div>
   ) : !isGeolocationEnabled ? (
@@ -20,36 +32,98 @@ class App extends Component {
   ) : coords ? (
        <div className="App">
          
-        <h1>Social Services WebApp</h1>
+        <h1 className="title">Social Services WebApp</h1>
         <NavBar />
-        <Table foodBankData={foodBanks}/>
+        
+        
         <br/>
         <Button variant="contained" color="primary">
           Nearest Food Bank
         </Button>
+
+        <div className="map">
+{/* Map Function showing markers for all locations in json files. */}
+
+          <Map className="mapbox"
+            style={'mapbox://styles/mapbox/streets-v11'}      
+            center={[coords.longitude, coords.latitude]}
+            // for testing when outside of KC using line below for center
+            // center = {[-94.6, 39.025]}
+            containerStyle={{
+            height: '80vh',
+            width: '90vw'
+          }}
+          >            
+            
+          <ZoomControl/>
+          
+          <Marker
+          coordinates={[coords.longitude, coords.latitude]}
+          anchor="bottom"
+          >
+          <img src= "/images/star.jpeg" alt="star" height='40px' width='50px'/>
+          </Marker>
+{/* markers may need their own component and refactored */}
+          {geoFood.features.map(foodBankMarkers =>(
+                <Marker
+                key={foodBankMarkers.properties.Name}
+                coordinates={[foodBankMarkers.geometry.coordinates[0],foodBankMarkers.geometry.coordinates[1]]}
+                anchor="bottom"
+                >
+                  <img src= "/images/burger.jpg" alt="food" height='30px' width='30px'/>
+                </Marker>
+          
+          
+              )
+            )
+          }
+
+          {geoShelter.features.map(shelterMarkers =>(
+                <Marker
+                key={shelterMarkers.properties.Name}
+                coordinates={[shelterMarkers.geometry.coordinates[0],shelterMarkers.geometry.coordinates[1]]}
+                anchor="bottom"
+                >
+                  <img src= "/images/shelter.png" alt="shelter" height='30px' width='30px'/>
+                </Marker>
+          
+          
+              )
+            )
+          }
+
+         {geoHealth.features.map(healthMarkers =>(
+            <Marker
+            key={healthMarkers.properties.Name}
+            coordinates={[healthMarkers.geometry.coordinates[0],healthMarkers.geometry.coordinates[1]]}
+            anchor="bottom"
+            >
+              <img src= "/images/health.png" alt="medical" height='30px' width='30px'/>
+            </Marker>
+      
+      
+          )
+        )
+      } 
+
+          </Map>
+        </div>
+
+        <Table foodBankData={geoFoodBanks}/>
         <br/>
-        <p>Here would be the map to show locations and nearest foodbank? </p>
-        <br/>
+
+        <div className="footer">
+        <p>Current lat/long {coords.latitude},{coords.longitude}</p>
         <StartingPoint latitude={coords.latitude} longitude={coords.longitude} />
-        <table>
-                <tbody>
-                    <tr>
-                        <td>latitude</td>
-                        <td>{coords.latitude}</td>
-                    </tr>
-                    <tr>
-                        <td>longitude</td>
-                        <td>{coords.longitude}</td>
-                    </tr>
-                </tbody>
-            </table>
+        </div>
         </div>
     ) : (
-      <div>Getting the location data&hellip; </div>
+      <div className="_welcome">Getting your current location...&hellip; </div>
   );
   }
  
 }  
+
 export default geolocated({
   positionOptions: {
       enableHighAccuracy: false,
