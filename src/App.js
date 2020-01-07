@@ -58,7 +58,7 @@ class App extends Component {
           <ZoomControl/>
           
           <Marker
-          coordinates={[-94.6359718, 38.919853200000006]}
+          coordinates={[coords.longitude, coords.latitude]}
           anchor="bottom"
           >
           <img src= "/images/star.jpeg" alt="star" height='40px' width='50px'/>
