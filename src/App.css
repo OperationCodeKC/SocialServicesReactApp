@@ -54,7 +54,10 @@ html{
 }
 .navBarCards {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  /* grid-template-columns: auto auto auto auto; */
+  grid-template-columns: 10vh auto 10vh 10vh;
+  border-style: solid;
+  border-color: red;
   justify-content: center;
 }
 .column {
@@ -79,4 +82,34 @@ html{
   background-image: linear-gradient( rgb(0,0,0,0),rgb(0,0,0,1));
   color: white;
   text-align: center;
+}
+
+.infoFoodBankPopup:hover {
+  background-color: red;
+  
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  /* border-bottom: 1px dotted black; */
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 12vw;
+  font-size: calc(.75vw + .75vh + .25vmin);;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }

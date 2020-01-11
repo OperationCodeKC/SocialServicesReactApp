@@ -5,12 +5,12 @@ import NavBar from './components/NavBar.js';
 import StartingPoint from './components/StartingPoint.js';
 import { geolocated } from "react-geolocated";
 import './App.css';
-import ReactMapboxGl, { Marker, ZoomControl} from 'react-mapbox-gl';
+import ReactMapboxGl, { Marker, ZoomControl, directions} from 'react-mapbox-gl';
 import geojson from 'geojson';
 import geoFoodBanks from './components/geoBanks.json';
 import geoShelters from './components/geoShelters.json';
 import geoHealths from './components/geoHealth.json';
-
+import MarkerDetails from "./components/MarkerDetails.js";
 
 class App extends Component {
   render(){
@@ -21,7 +21,10 @@ class App extends Component {
     },
     
     );
-    const geoFood = geojson.parse(geoFoodBanks, {Point:['lat','lng'], include:['Name']});
+
+// const directions = new MapboxDirections
+
+    const geoFood = geojson.parse(geoFoodBanks, {Point:['lat','lng'], include:['Name']['Address']});
     const geoShelter = geojson.parse(geoShelters, {Point:['lat','lng'], include:['Name']});
     const geoHealth = geojson.parse(geoHealths, {Point:['lat','lng'], include:['Name']});
 
@@ -52,9 +55,8 @@ class App extends Component {
             containerStyle={{
             height: '80vh',
             width: '90vw'
-          }}
-          >            
-            
+          }}>
+          
           <ZoomControl/>
           
           <Marker
@@ -70,7 +72,17 @@ class App extends Component {
                 coordinates={[foodBankMarkers.geometry.coordinates[0],foodBankMarkers.geometry.coordinates[1]]}
                 anchor="bottom"
                 >
+                  {/* <MarkerDetails next = {foodBankMarkers}> */}
+                  <div className="tooltip">
                   <img src= "/images/burger.jpg" alt="food" height='30px' width='30px'/>
+                  
+  <span className="tooltiptext">{foodBankMarkers.properties.Name}<br></br>{foodBankMarkers.properties.Phone}<br></br>{foodBankMarkers.properties.Address}<br></br>
+  <Button variant="contained" color="primary">
+          Map
+        </Button>
+        </span>
+                  </div>
+                  {/* </MarkerDetails> */}
                 </Marker>
           
           
@@ -84,7 +96,9 @@ class App extends Component {
                 coordinates={[shelterMarkers.geometry.coordinates[0],shelterMarkers.geometry.coordinates[1]]}
                 anchor="bottom"
                 >
+                  <Button onClick={console.log("hello")}>
                   <img src= "/images/shelter.png" alt="shelter" height='30px' width='30px'/>
+                  </Button>
                 </Marker>
           
           
@@ -111,6 +125,17 @@ class App extends Component {
 
         <Table foodBankData={geoFoodBanks}/>
         <br/>
+        <Map className="mapbox"
+            style={'mapbox://styles/mapbox/streets-v11'}    
+            center={[coords.longitude, coords.latitude]}
+            // for testing when outside of KC using line below for center
+            // center = {[-94.6, 39.025]}
+            containerStyle={{
+            height: '80vh',
+            width: '90vw'
+          }}>
+        {/* for testing set state eventually  */}
+        </Map>
 
         <div className="footer">
         <p>Current lat/long {coords.latitude},{coords.longitude}</p>

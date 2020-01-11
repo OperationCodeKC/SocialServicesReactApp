@@ -1,6 +1,7 @@
 [
 {
     "Name": "Harvesters the Community Food Network",
+    "Phone": "816-929-3000",
     "Address": "3801 Topping Ave",
     "City": "Kansas City",
     "State": "MO",
@@ -10,6 +11,7 @@
   },
   {
     "Name": "Seton Center Inc",
+    "Phone":"Phone",
     "Address": "2816 E 23rd St",
     "City": "Kansas City",
     "State": "MO",
@@ -19,6 +21,7 @@
   },
   {
     "Name": "Santa Fe Waystation Food Pantry",
+    "Phone":"Phone",
     "Address": "6422 Santa Fe Dr",
     "City": "Mission",
     "State": "KS",
@@ -28,6 +31,7 @@
   },
   {
     "Name": "Village Presbyterian Church Food Pantry",
+    "Phone":"Phone",
     "Address": "Tillotson Building, 9960 Mission Rd",
     "City": "Overland Park",
     "State": "KS",
@@ -37,6 +41,7 @@
   },
   {
     "Name": "Fishes and Loaves Food Pantry",
+    "Phone":"Phone",
     "Address": "1315 E Walnut St",
     "City": "Raymore",
     "State": "MO",
@@ -46,6 +51,7 @@
   },
   {
     "Name": "Abundant Life Food Panty",
+    "Phone":"Phone",
     "Address": "1300 SW Jefferson St",
     "City": "Lee's Summit",
     "State": "MO",
@@ -55,6 +61,7 @@
   },
   {
     "Name": "New Hope Food Pantry",
+    "Phone":"Phone",
     "Address": "13310 S Black Bob Rd",
     "City": "Olathe",
     "State": "KS",
