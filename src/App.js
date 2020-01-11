@@ -45,7 +45,7 @@ class App extends Component {
 {/* Map Function showing markers for all locations in json files. */}
 
           <Map className="mapbox"
-            style={{mapbox:'//styles/mapbox/streets-v11'}}      
+            style={'mapbox://styles/mapbox/streets-v11'}      
             center={[coords.longitude, coords.latitude]}
             // for testing when outside of KC using line below for center
             // center = {[-94.6, 39.025]}
