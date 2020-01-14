@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Table from './components/FoodBanks.js';
 import NavBar from './components/NavBar.js';
 import StartingPoint from './components/StartingPoint.js';
 import { geolocated } from "react-geolocated";
 import './App.css';
-import Map from './components/Map.js';
+import TestMap from './components/TestMap.js';
 
 class App extends Component {
+
     render(){
       const { isGeolocationAvailable, isGeolocationEnabled, coords } = this.props;
    
@@ -18,13 +18,13 @@ class App extends Component {
 
       <div className="App">
         <h1 className="title">Social Services WebApp</h1>
-          <NavBar />
-          <Map coords = {coords}/>
-          <Table/>
-          <div className="footer">
-            <p>Current lat/long {coords.latitude},{coords.longitude}</p>
-            <StartingPoint latitude={coords.latitude} longitude={coords.longitude} />
-          </div>
+        <NavBar />
+        <TestMap latitude={coords.latitude} longitude={coords.longitude}/>
+        
+        <div className="footer">
+          <p>Current lat/long {coords.latitude},{coords.longitude}</p>
+          <StartingPoint latitude={coords.latitude} longitude={coords.longitude} />
+        </div>
       </div>
       ) : (
       <div className="_welcome">Getting your current location...&hellip; </div>
