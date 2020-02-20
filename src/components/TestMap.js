@@ -7,7 +7,7 @@ import geoFoodBanks from './geoBanks.json';
 import geoShelters from './geoShelters.json';
 import geoHealths from './geoHealth.json';
 
-
+//need to update App.js file or Map.js file to removed testing files. s
 
 const Map = ReactMapboxGl({
   accessToken:'pk.eyJ1IjoiY29saW5waGlsbGlwczY3IiwiYSI6ImNrMGZvd2MyaDAxdG8zbHJ6MmFnNnZpaTUifQ.tJ63Dty8f2DWdS1jenXPCA'
