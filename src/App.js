@@ -4,7 +4,7 @@ import StartingPoint from './components/StartingPoint.js';
 import { geolocated } from "react-geolocated";
 import './App.css';
 import TestMap from './components/TestMap.js';
-
+//Testing Push from githubs
 class App extends Component {
 
     render(){
