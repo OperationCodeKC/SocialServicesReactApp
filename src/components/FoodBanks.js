@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import geoFoodBanks from './geoBanks.json';
 
 const TableBody = props => {
     const rows = props.foodBankData.map((row,index)=>{
@@ -17,7 +18,7 @@ const TableBody = props => {
 
 class Table extends Component {
     render(){
-      const { foodBankData } = this.props     
+        const foodBankData = geoFoodBanks;  
     return (
          <table className="Table">
              <TableBody foodBankData={foodBankData} />
