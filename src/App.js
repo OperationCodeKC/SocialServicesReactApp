@@ -3,8 +3,8 @@ import NavBar from './components/NavBar.js';
 import StartingPoint from './components/StartingPoint.js';
 import { geolocated } from "react-geolocated";
 import './App.css';
-import TestMap from './components/TestMap.js';
-//Testing Push to github
+import MapBox from './components/Map.js';
+
 class App extends Component {
 
     render(){
@@ -19,7 +19,7 @@ class App extends Component {
       <div className="App">
         <h1 className="title">Social Services WebApp</h1>
         <NavBar />
-        <TestMap latitude={coords.latitude} longitude={coords.longitude}/>
+        <MapBox latitude={coords.latitude} longitude={coords.longitude}/>
         
         <div className="footer">
           <p>Current lat/long {coords.latitude},{coords.longitude}</p>

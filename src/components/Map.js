@@ -2,102 +2,91 @@ import React, { Component } from 'react';
 import '../App.css';
 import ReactMapboxGl, { Marker, ZoomControl} from 'react-mapbox-gl';
 import geojson from 'geojson';
+import Button from '@material-ui/core/Button';
 import geoFoodBanks from './geoBanks.json';
 import geoShelters from './geoShelters.json';
 import geoHealths from './geoHealth.json';
-import Button from '@material-ui/core/Button';
 
-class Map extends Component {
-    render(){
-        const {coords} =this.props   
-        const Map = ReactMapboxGl({
-            accessToken:
-            'pk.eyJ1IjoiY29saW5waGlsbGlwczY3IiwiYSI6ImNrMGZvd2MyaDAxdG8zbHJ6MmFnNnZpaTUifQ.tJ63Dty8f2DWdS1jenXPCA'
-        },
-            
-        );
-        
-        const geoFood = geojson.parse(geoFoodBanks, {Point:['lat','lng'], include:['Name']['Address']});
-        const geoShelter = geojson.parse(geoShelters, {Point:['lat','lng'], include:['Name']});
-        const geoHealth = geojson.parse(geoHealths, {Point:['lat','lng'], include:['Name']});
-    return(
-        <div className="map">
-            {/* Map Function showing markers for all locations in json files. */}
-          <Map className="mapbox"
-            style={'mapbox://styles/mapbox/streets-v11'}      
-            center={[coords.longitude, coords.latitude]}
-            // for testing when outside of KC using line below for center
-            // center = {[-94.6, 39.025]}
-            containerStyle={{
-            height: '80vh',
-            width: '90vw'
-          }}>         
-          <ZoomControl/>        
-          <Marker
-          coordinates={[coords.longitude, coords.latitude]}
-          anchor="bottom"
-          >
-          <img src= "/images/star.jpeg" alt="star" height='40px' width='50px'/>
-          </Marker>
-          {/* markers may need their own component and refactored */}
-          {geoFood.features.map(foodBankMarkers =>(
-                <Marker
-                key={foodBankMarkers.properties.Name}
-                coordinates={[foodBankMarkers.geometry.coordinates[0],foodBankMarkers.geometry.coordinates[1]]}
-                anchor="bottom"
-                >
-                  {/* <MarkerDetails next = {foodBankMarkers}> */}
-                  <div className="tooltip">
-                  <img src= "/images/burger.jpg" alt="food" height='30px' width='30px'/>
-                  
-          <span className="tooltiptext">{foodBankMarkers.properties.Name}<br></br>{foodBankMarkers.properties.Phone}<br></br>{foodBankMarkers.properties.Address}<br></br>
-         <Button variant="contained" color="primary">
-          Map
-        </Button>
+
+
+const Map = ReactMapboxGl({
+  accessToken:'pk.eyJ1IjoiY29saW5waGlsbGlwczY3IiwiYSI6ImNrMGZvd2MyaDAxdG8zbHJ6MmFnNnZpaTUifQ.tJ63Dty8f2DWdS1jenXPCA'
+}, 
+)
+
+class MapBox extends Component {  
+  
+  constructor(props){
+    super(props);
+    this.state = {Mapper: <Map className="mapbox"
+    style={'mapbox://styles/mapbox/streets-v11'}      
+    center={[this.props.longitude, this.props.latitude]}
+    containerStyle={{
+    height: '80vh',
+    width: '90vw'
+  }}
+  >  
+  <ZoomControl/>
+  </Map>, 
+};
+}
+componentDidMount(){
+    console.log("worked in testmap file");  
+}
+componentDidUpdate(){
+  console.log("component updated")
+}
+componentWillUnmount(){
+    console.log("will mount function");
+}
+Resources(e, MarkerImage){
+
+  this.setState({Mapper: <Map className="mapbox"
+  style={'mapbox://styles/mapbox/streets-v11'}      
+  center={[this.props.longitude, this.props.latitude]}
+  containerStyle={{
+  height: '80vh',
+  width: '90vw'
+}}>
+  <Marker coordinates={[this.props.longitude, this.props.latitude]} anchor="bottom">
+    <img src= "/images/star.jpeg" alt="star" height='40px' width='50px'/>
+  </Marker>
+
+{e.features.map(Markers =>(
+      <Marker
+      key={Markers.properties.Name}
+      coordinates={[Markers.geometry.coordinates[0],Markers.geometry.coordinates[1]]}
+      anchor="bottom"
+      >                 
+        <div className="tooltip">
+          <img src= {MarkerImage} alt={e.features[0].properties.Type} height='30px' width='30px'/>
+          <span className="tooltiptext">{Markers.properties.Name}<br></br>{Markers.properties.Phone}<br></br>{Markers.properties.Address}<br></br>
+        <Button variant="contained" color="primary">Map here?</Button>
         </span>
-                  </div>
-                  {/* </MarkerDetails> */}
-                </Marker>
-          
-          
-              )
-            )
-          }
-
-          {geoShelter.features.map(shelterMarkers =>(
-                <Marker
-                key={shelterMarkers.properties.Name}
-                coordinates={[shelterMarkers.geometry.coordinates[0],shelterMarkers.geometry.coordinates[1]]}
-                anchor="bottom"
-                >
-                  <Button>
-                  <img src= "/images/shelter.png" alt="shelter" height='30px' width='30px'/>
-                  </Button>
-                </Marker>
-          
-          
-              )
-            )
-          }
-
-         {geoHealth.features.map(healthMarkers =>(
-            <Marker
-            key={healthMarkers.properties.Name}
-            coordinates={[healthMarkers.geometry.coordinates[0],healthMarkers.geometry.coordinates[1]]}
-            anchor="bottom"
-            >
-              <img src= "/images/health.png" alt="medical" height='30px' width='30px'/>
-            </Marker>
-      
-      
-          )
-        )
-      } 
-
-          </Map>
         </div>
+      </Marker>  
+          
     )
+  )
+}
+</Map>})
+}
+  render(){
+      const geoFood = geojson.parse(geoFoodBanks, {Point:['lat','lng'], include:['Name']['Address']});
+      const geoShelter = geojson.parse(geoShelters, {Point:['lat','lng'], include:['Name']['Address']});
+      const geoHealth = geojson.parse(geoHealths, {Point:['lat','lng'], include:['Name']['Address']});   
+    return(
+      
+        <div className="map">   
+          <Button onClick={()=>(this.Resources(geoFood, '/images/burger.jpg'))} variant="contained" color="primary">Link to Food Map Button</Button> 
+          <Button onClick={()=>(this.Resources(geoHealth, '/images/health.png' ))} variant="contained" color="primary">Link to Medical Map Button</Button> 
+          <Button onClick={()=>(this.Resources(geoShelter, '/images/shelter.png'))} variant="contained" color="primary">Link to Shelter Map Button</Button> 
+        <div>{this.state.Mapper}</div>
+     <br></br><br></br>
+        </div>    
+            
+    );
+  }
+}
+export default MapBox;
 
-}
-}
-export default Map;
