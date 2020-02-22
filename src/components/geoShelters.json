@@ -1,5 +1,5 @@
 [
-    {
+    {   "Type": "Shelter",
         "Name": "City Union Mission (Men's Shelter)",
         "Address": "1108 E 10th St",
         "City": "Kansas City",
@@ -9,6 +9,7 @@
         "lng": "-94.6642841"
       },
       {
+        "Type": "Shelter",
         "Name": "Mother's Refuge",
         "Address": "14400 E 42 St S # 220",
         "City": "Independence",
@@ -18,6 +19,7 @@
         "lng": "-94.4102114"
       },
       {
+        "Type": "Shelter",
         "Name": "Salvation Army",
         "Address": "Salvation Army",
         "City": "Kansas City",
@@ -27,6 +29,7 @@
         "lng": "-94.5870871"
       },
       {
+        "Type": "Shelter",
         "Name": "Project1020",
         "Address": "725 W Park St",
         "City": "Olathe",

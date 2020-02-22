@@ -1,5 +1,6 @@
 [
-{
+  {
+    "Type": "FoodBank",
     "Name": "Harvesters the Community Food Network",
     "Phone": "816-929-3000",
     "Address": "3801 Topping Ave",
@@ -10,6 +11,7 @@
     "lng": "-94.5155052"
   },
   {
+    "Type": "FoodBank",
     "Name": "Seton Center Inc",
     "Phone":"Phone",
     "Address": "2816 E 23rd St",
@@ -20,6 +22,7 @@
     "lng": "-94.5489297"
   },
   {
+    "Type": "FoodBank",
     "Name": "Santa Fe Waystation Food Pantry",
     "Phone":"Phone",
     "Address": "6422 Santa Fe Dr",
@@ -30,6 +33,7 @@
     "lng": "-94.6748673"
   },
   {
+    "Type": "FoodBank",
     "Name": "Village Presbyterian Church Food Pantry",
     "Phone":"Phone",
     "Address": "Tillotson Building, 9960 Mission Rd",
@@ -40,6 +44,7 @@
     "lng": "-94.6331087"
   },
   {
+    "Type": "FoodBank",
     "Name": "Fishes and Loaves Food Pantry",
     "Phone":"Phone",
     "Address": "1315 E Walnut St",
@@ -50,6 +55,7 @@
     "lng": "-94.4284498"
   },
   {
+    "Type": "FoodBank",
     "Name": "Abundant Life Food Panty",
     "Phone":"Phone",
     "Address": "1300 SW Jefferson St",
@@ -60,6 +66,7 @@
     "lng": "-94.3798815"
   },
   {
+    "Type": "FoodBank",
     "Name": "New Hope Food Pantry",
     "Phone":"Phone",
     "Address": "13310 S Black Bob Rd",

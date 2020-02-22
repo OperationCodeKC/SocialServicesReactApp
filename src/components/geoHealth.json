@@ -1,5 +1,6 @@
 [
     {
+        "Type": "HealthCenter",
         "Name": "Family Health Care",
         "Address": "300-340 Southwest Blvd",
         "City": "Kansas City",
@@ -9,6 +10,7 @@
         "lng": "-94.6132922"
       },
       {
+        "Type": "HealthCenter",
         "Name": "Mercy Health Free Clinic",
         "Address": "9520 James A Reed Rd",
         "City": "Kansas City",
@@ -16,7 +18,9 @@
         "Zipcode": "64134",
         "lat": "38.9505817",
         "lng": "-94.49476"
-      },{
+      },
+      {
+        "Type": "HealthCenter",
         "Name": "Swope Health South",
         "Address": "8827 Troost Ave",
         "City": "Kansas City",

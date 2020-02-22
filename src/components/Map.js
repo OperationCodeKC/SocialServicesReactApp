@@ -7,9 +7,6 @@ import geoShelters from './geoShelters.json';
 import geoHealths from './geoHealth.json';
 import Button from '@material-ui/core/Button';
 
-
-import '../App.css';
-
 class Map extends Component {
     render(){
         const {coords} =this.props   
@@ -73,7 +70,7 @@ class Map extends Component {
                 coordinates={[shelterMarkers.geometry.coordinates[0],shelterMarkers.geometry.coordinates[1]]}
                 anchor="bottom"
                 >
-                  <Button onClick={console.log("hello")}>
+                  <Button>
                   <img src= "/images/shelter.png" alt="shelter" height='30px' width='30px'/>
                   </Button>
                 </Marker>
