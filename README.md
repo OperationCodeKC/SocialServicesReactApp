@@ -1,5 +1,27 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Readme on packages used in app
+
+### react-geolocated
+
+Obtains the users location to display relevant informaiton on services.
+
+https://www.npmjs.com/package/react-geolocated
+react-geolocated - React.js Higher-Order Component for using Geolocation API
+
+### mapbox-gl
+
+Mapping functionality for user location obtained through react-geolocated and service locations from databases.
+
+https://www.npmjs.com/package/mapbox-gl
+
+
+### Material-UI
+
+Adds quick react components for easier design and web development. 
+
+https://material-ui.com/
+
 ## Available Scripts
 
 In the project directory, you can run:
