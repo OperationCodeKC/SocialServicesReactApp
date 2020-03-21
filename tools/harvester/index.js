@@ -1,3 +1,4 @@
+require("dotenv").config();
 const fs = require("fs");
 const fetch = require("node-fetch");
 const cheerio = require("cheerio");
@@ -8,6 +9,11 @@ const downloadPage = async url => {
   const response = await fetch(url);
   const html = await response.text();
   return cheerio.load(html);
+};
+
+const downloadJson = async url => {
+  const response = await fetch(url);
+  return await response.json();
 };
 
 const parseCityStateZip = s => {
@@ -33,7 +39,7 @@ const parseCityStateZip = s => {
   const foodBanks = [];
   const results = $(".row.assistance-result");
   console.log(`${results.length} results`);
-  const count = results.length;
+  const count = 10; //results.length;
   for (let i = 0; i < count; i++) {
     const name = $(results[i].firstChild.firstChild).text();
     const address = $(results[i].firstChild.childNodes[1].firstChild)
@@ -46,12 +52,15 @@ const parseCityStateZip = s => {
       results[i].childNodes[1].childNodes[1].firstChild
     ).attr("href")}`;
     // console.log($("div > div", results[i]).html());
-    const $page = await downloadPage(link);
-    const html = $page.html();
-    const regEx = /sll=([0-9-.]+),([0-9-.]+)/m;
-    const match = html.match(regEx);
-    const lat = match[1];
-    const lng = match[2];
+
+    const mapAddress = `${streetAddress},${city},${state} ${zip}`;
+    const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${escape(
+      mapAddress
+    )}&key=${process.env.API_KEY}`;
+    const json = await downloadJson(url);
+    const geometry = json.results[0].geometry;
+    const lat = geometry.location.lat;
+    const lng = geometry.location.lng;
     console.log({
       name,
       streetAddress,
