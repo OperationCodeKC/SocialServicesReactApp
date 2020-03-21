@@ -39,19 +39,25 @@ const parseCityStateZip = s => {
   const foodBanks = [];
   const results = $(".row.assistance-result");
   console.log(`${results.length} results`);
-  const count = 10; //results.length;
+  const count = results.length;
   for (let i = 0; i < count; i++) {
-    const name = $(results[i].firstChild.firstChild).text();
+    const name = $(results[i].firstChild.firstChild)
+      .text()
+      .trim();
     const address = $(results[i].firstChild.childNodes[1].firstChild)
       .html()
       .split("<br>");
-    const streetAddress = address[0].trim();
+    const streetAddress = address[0].trim().replace(/\s{2}/g, " ");
     const [city, state, zip] = parseCityStateZip(address[1]);
     const phone = address[2];
     const link = `${rootUrl}${$(
       results[i].childNodes[1].childNodes[1].firstChild
     ).attr("href")}`;
     // console.log($("div > div", results[i]).html());
+    const id = link.match(/id=(\d+)/)[1];
+    const filename = `./output/${id} ${name}.json`;
+    // Skip if file already exists
+    if (fs.existsSync(filename)) continue;
 
     const mapAddress = `${streetAddress},${city},${state} ${zip}`;
     const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${escape(
@@ -61,17 +67,19 @@ const parseCityStateZip = s => {
     const geometry = json.results[0].geometry;
     const lat = geometry.location.lat;
     const lng = geometry.location.lng;
-    console.log({
-      name,
-      streetAddress,
-      city,
-      state,
-      zip,
-      phone,
-      link,
+    const location = {
+      Type: "FoodBank",
+      Name: name,
+      Phone: phone,
+      Address: streetAddress,
+      City: city,
+      State: state,
+      Zipcode: zip,
       lat,
-      lng
-    });
+      lng,
+      link
+    };
+    console.log(location);
+    fs.writeFileSync(filename, JSON.stringify(location, undefined, 2));
   }
-  //fs.writeFileSync(filename, JSON.stringify(foodBanks))
 })();
