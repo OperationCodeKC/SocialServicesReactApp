@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Catholic Charities",
+  "Phone": "913-432-3141",
+  "Address": "9806 W 87th Street",
+  "City": "Overland Park",
+  "State": "KS",
+  "Zipcode": "66212",
+  "lat": 38.9716372,
+  "lng": -94.69847469999999,
+  "link": "https://harvesters.org/Service-Detail?id=25706&zip=66224&rad=10&type=1"
+}

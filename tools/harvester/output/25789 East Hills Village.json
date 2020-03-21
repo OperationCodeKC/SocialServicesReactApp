@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "East Hills Village",
+  "Phone": "816-786-7641",
+  "Address": "7575 Monroe Avenue",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64132",
+  "lat": 38.9892219,
+  "lng": -94.544069,
+  "link": "https://harvesters.org/Service-Detail?id=25789&zip=66224&rad=10&type=1"
+}

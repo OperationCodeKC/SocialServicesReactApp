@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Blue Hills",
+  "Phone": "816-523-2833",
+  "Address": "10306 Blue Ridge Boulevard",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64134",
+  "lat": 38.9372431,
+  "lng": -94.5090343,
+  "link": "https://harvesters.org/Service-Detail?id=25790&zip=66224&rad=10&type=1"
+}

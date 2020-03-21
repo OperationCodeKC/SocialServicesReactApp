@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Overland Park Church of Christ",
+  "Phone": "913-696-1516",
+  "Address": "13400 W 119th Street",
+  "City": "Overland Park",
+  "State": "KS",
+  "Zipcode": "66213",
+  "lat": 38.913459,
+  "lng": -94.74156599999999,
+  "link": "https://harvesters.org/Service-Detail?id=25825&zip=66224&rad=10&type=1"
+}

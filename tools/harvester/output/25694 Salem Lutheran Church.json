@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Salem Lutheran Church",
+  "Phone": "913-888-5051 ",
+  "Address": "9135 Haskins",
+  "City": "Lenexa",
+  "State": "KS",
+  "Zipcode": "66215",
+  "lat": 38.962545,
+  "lng": -94.7405571,
+  "link": "https://harvesters.org/Service-Detail?id=25694&zip=66224&rad=10&type=1"
+}

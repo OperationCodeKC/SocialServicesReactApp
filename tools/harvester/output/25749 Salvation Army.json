@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Salvation Army",
+  "Phone": "816-763-3244 ",
+  "Address": "6111 E 129th Street",
+  "City": "Grandview",
+  "State": "MO",
+  "Zipcode": "64030",
+  "lat": 38.8910558,
+  "lng": -94.5210727,
+  "link": "https://harvesters.org/Service-Detail?id=25749&zip=66224&rad=10&type=1"
+}

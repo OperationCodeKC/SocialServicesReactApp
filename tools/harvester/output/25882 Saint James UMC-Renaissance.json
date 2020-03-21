@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Saint James UMC-Renaissance",
+  "Phone": "816-444-5588",
+  "Address": "7205 Longview Road",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64134",
+  "lat": 38.9146847,
+  "lng": -94.5069628,
+  "link": "https://harvesters.org/Service-Detail?id=25882&zip=66224&rad=10&type=1"
+}

@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Jewish Family Services",
+  "Phone": "913-327-8250",
+  "Address": "5801 W 115th Street 103",
+  "City": "Overland Park",
+  "State": "KS",
+  "Zipcode": "66211",
+  "lat": 38.918211,
+  "lng": -94.65282909999999,
+  "link": "https://harvesters.org/Service-Detail?id=25701&zip=66224&rad=10&type=1"
+}

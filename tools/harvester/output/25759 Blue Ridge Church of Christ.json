@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Blue Ridge Church of Christ",
+  "Phone": "816-765-2699",
+  "Address": "9603 Blue Ridge Boulevard",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64134",
+  "lat": 38.949852,
+  "lng": -94.50710199999999,
+  "link": "https://harvesters.org/Service-Detail?id=25759&zip=66224&rad=10&type=1"
+}

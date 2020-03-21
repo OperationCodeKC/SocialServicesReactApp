@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Leawood Presbyterian Church",
+  "Phone": "913-649-1144",
+  "Address": "2715 W 83rd Street",
+  "City": "Leawood",
+  "State": "KS",
+  "Zipcode": "66206",
+  "lat": 38.9784505,
+  "lng": -94.6176382,
+  "link": "https://harvesters.org/Service-Detail?id=25987&zip=66224&rad=10&type=1"
+}

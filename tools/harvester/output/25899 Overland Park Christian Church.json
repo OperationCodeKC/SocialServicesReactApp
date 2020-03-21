@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Overland Park Christian Church",
+  "Phone": "913-677-4646",
+  "Address": "7600 W 75 Street",
+  "City": "Overland Park",
+  "State": "KS",
+  "Zipcode": "66204",
+  "lat": 38.9937502,
+  "lng": -94.67410629999999,
+  "link": "https://harvesters.org/Service-Detail?id=25899&zip=66224&rad=10&type=1"
+}

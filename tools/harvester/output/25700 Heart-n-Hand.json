@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Heart-n-Hand",
+  "Phone": "816-322-1133",
+  "Address": "200 B Street",
+  "City": "Belton",
+  "State": "MO",
+  "Zipcode": "64012",
+  "lat": 38.8142513,
+  "lng": -94.5322681,
+  "link": "https://harvesters.org/Service-Detail?id=25700&zip=66224&rad=10&type=1"
+}

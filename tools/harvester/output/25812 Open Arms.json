@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Open Arms",
+  "Phone": "913-744-1177",
+  "Address": "12480 S Black Bob Road",
+  "City": "Olathe",
+  "State": "KS",
+  "Zipcode": "66062",
+  "lat": 38.904673,
+  "lng": -94.7626571,
+  "link": "https://harvesters.org/Service-Detail?id=25812&zip=66224&rad=10&type=1"
+}

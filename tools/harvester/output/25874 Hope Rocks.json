@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Hope Rocks",
+  "Phone": "816-214-4900",
+  "Address": "534 E 99th Street",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64131",
+  "lat": 38.948695,
+  "lng": -94.58421399999999,
+  "link": "https://harvesters.org/Service-Detail?id=25874&zip=66224&rad=10&type=1"
+}

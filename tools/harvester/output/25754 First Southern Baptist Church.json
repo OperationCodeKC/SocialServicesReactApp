@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "First Southern Baptist Church",
+  "Phone": "913-381-0467",
+  "Address": "8600 W 91st Terrace",
+  "City": "Overland Park",
+  "State": "KS",
+  "Zipcode": "66212",
+  "lat": 38.9633904,
+  "lng": -94.6853541,
+  "link": "https://harvesters.org/Service-Detail?id=25754&zip=66224&rad=10&type=1"
+}

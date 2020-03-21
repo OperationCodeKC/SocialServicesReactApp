@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Jewish Family Services",
+  "Phone": "913-327-8257",
+  "Address": "425 E 63rd Street",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64114",
+  "lat": 39.0133443,
+  "lng": -94.582313,
+  "link": "https://harvesters.org/Service-Detail?id=25753&zip=66224&rad=10&type=1"
+}
