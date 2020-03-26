@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "First Baptist Church Peculiar",
+  "Phone": "816-779-5512",
+  "Address": "216 E Broadway",
+  "City": "Peculiar",
+  "State": "MO",
+  "Zipcode": "64078",
+  "lat": 38.7186998,
+  "lng": -94.45833329999999,
+  "link": "https://harvesters.org/Service-Detail?id=25928&zip=66224&rad=30&type=-1"
+}

@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Salvation Army",
+  "Phone": "816-241-6485",
+  "Address": "6618 E Truman Road",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64126",
+  "lat": 39.0940392,
+  "lng": -94.5046464,
+  "link": "https://harvesters.org/Service-Detail?id=25788&zip=66224&rad=30&type=-1"
+}

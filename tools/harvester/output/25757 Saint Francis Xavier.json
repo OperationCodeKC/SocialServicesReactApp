@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Saint Francis Xavier",
+  "Phone": "816-381-9174",
+  "Address": "1001 E 52nd Street",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64110",
+  "lat": 39.0321122,
+  "lng": -94.5742511,
+  "link": "https://harvesters.org/Service-Detail?id=25757&zip=66224&rad=30&type=-1"
+}

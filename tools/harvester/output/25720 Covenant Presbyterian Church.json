@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Covenant Presbyterian Church",
+  "Phone": "816-444-3693",
+  "Address": "5931 Swope Parkway",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64130",
+  "lat": 39.0174623,
+  "lng": -94.541371,
+  "link": "https://harvesters.org/Service-Detail?id=25720&zip=66224&rad=30&type=-1"
+}

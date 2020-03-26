@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Catholic Charities",
+  "Phone": "785-856-2694",
+  "Address": "1525 West 6th Suite A &amp; B",
+  "City": "Lawrence",
+  "State": "KS",
+  "Zipcode": "66044",
+  "lat": 38.9727818,
+  "lng": -95.25370579999999,
+  "link": "https://harvesters.org/Service-Detail?id=25976&zip=66051&rad=30&type=-1"
+}

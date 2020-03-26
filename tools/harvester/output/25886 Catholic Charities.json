@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Catholic Charities",
+  "Phone": "913-433-2100",
+  "Address": "1708 Steele Road",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66106",
+  "lat": 39.0626876,
+  "lng": -94.64828399999999,
+  "link": "https://harvesters.org/Service-Detail?id=25886&zip=66224&rad=30&type=-1"
+}

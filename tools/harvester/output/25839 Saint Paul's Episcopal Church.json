@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Saint Paul's Episcopal Church",
+  "Phone": "913-321-3535",
+  "Address": "1300 N 18th Street",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66102",
+  "lat": 39.1188504,
+  "lng": -94.6498568,
+  "link": "https://harvesters.org/Service-Detail?id=25839&zip=66224&rad=30&type=-1"
+}

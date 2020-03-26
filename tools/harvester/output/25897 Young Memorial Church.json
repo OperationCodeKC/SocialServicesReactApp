@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Young Memorial Church",
+  "Phone": "913-321-5526",
+  "Address": "2401 N 9th Street",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66101",
+  "lat": 39.1330226,
+  "lng": -94.6322545,
+  "link": "https://harvesters.org/Service-Detail?id=25897&zip=66224&rad=30&type=-1"
+}

@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Penn Valley",
+  "Phone": "816-604-1000",
+  "Address": "3201 SW Trafficway",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64111",
+  "lat": 39.0696135,
+  "lng": -94.5930971,
+  "link": "https://harvesters.org/Service-Detail?id=26229&zip=66224&rad=30&type=-1"
+}

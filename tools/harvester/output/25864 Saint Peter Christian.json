@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Saint Peter Christian",
+  "Phone": "913-321-8220",
+  "Address": "1419 N 8th Street",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66101",
+  "lat": 39.1202595,
+  "lng": -94.6292569,
+  "link": "https://harvesters.org/Service-Detail?id=25864&zip=66224&rad=30&type=-1"
+}

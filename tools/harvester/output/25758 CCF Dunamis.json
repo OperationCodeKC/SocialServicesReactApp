@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "CCF Dunamis",
+  "Phone": "816-288-1320",
+  "Address": "911 S Parker Street Suite B",
+  "City": "Olathe",
+  "State": "KS",
+  "Zipcode": "66061",
+  "lat": 38.8697831,
+  "lng": -94.83614680000001,
+  "link": "https://harvesters.org/Service-Detail?id=25758&zip=66224&rad=30&type=-1"
+}

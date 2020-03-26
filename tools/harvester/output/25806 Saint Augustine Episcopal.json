@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Saint Augustine Episcopal",
+  "Phone": "816-921-8534",
+  "Address": "2732 Benton Boulevard",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64128",
+  "lat": 39.0756424,
+  "lng": -94.5493286,
+  "link": "https://harvesters.org/Service-Detail?id=25806&zip=66224&rad=30&type=-1"
+}

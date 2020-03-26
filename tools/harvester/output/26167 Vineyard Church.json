@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Vineyard Church",
+  "Phone": "816-734-8100",
+  "Address": "12300 Northwest Arrowhead Trafficway",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64165",
+  "lat": 39.316454,
+  "lng": -94.58706,
+  "link": "https://harvesters.org/Service-Detail?id=26167&zip=64129&rad=30&type=-1"
+}

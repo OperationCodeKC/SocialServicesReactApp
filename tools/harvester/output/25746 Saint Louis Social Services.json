@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Saint Louis Social Services",
+  "Phone": "816-822-2831",
+  "Address": "5930 Swope Parkway",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64130",
+  "lat": 39.0172621,
+  "lng": -94.5423378,
+  "link": "https://harvesters.org/Service-Detail?id=25746&zip=66224&rad=30&type=-1"
+}

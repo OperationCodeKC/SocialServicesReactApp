@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "First Christian Church",
+  "Phone": "913-621-5739",
+  "Address": "1000 Argentine Boulevard",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66105",
+  "lat": 39.0848518,
+  "lng": -94.6357129,
+  "link": "https://harvesters.org/Service-Detail?id=25726&zip=66224&rad=30&type=-1"
+}

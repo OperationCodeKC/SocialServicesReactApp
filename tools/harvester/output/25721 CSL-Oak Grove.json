@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "CSL-Oak Grove",
+  "Phone": "816-690-8213",
+  "Address": "1408 SE Austin Street",
+  "City": "Oak Grove",
+  "State": "MO",
+  "Zipcode": "64075",
+  "lat": 39.0015242,
+  "lng": -94.1284484,
+  "link": "https://harvesters.org/Service-Detail?id=25721&zip=66224&rad=30&type=-1"
+}

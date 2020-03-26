@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Orrick Community Center",
+  "Phone": "816-496-5532",
+  "Address": "7537 Bruns Road",
+  "City": "Orrick",
+  "State": "MO",
+  "Zipcode": "64077",
+  "lat": 39.2266511,
+  "lng": -94.0979211,
+  "link": "https://harvesters.org/Service-Detail?id=26129&zip=64129&rad=30&type=-1"
+}

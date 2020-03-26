@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Sherwood Center",
+  "Phone": "816-381-9661",
+  "Address": "7938 Chestnut Avenue",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64132",
+  "lat": 38.9820217,
+  "lng": -94.55563269999999,
+  "link": "https://harvesters.org/Service-Detail?id=26000&zip=66224&rad=30&type=-1"
+}

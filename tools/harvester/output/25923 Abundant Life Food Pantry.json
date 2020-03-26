@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Abundant Life Food Pantry",
+  "Phone": "816-554-8181",
+  "Address": "1300 SW Jefferson",
+  "City": "Lees Summit",
+  "State": "MO",
+  "Zipcode": "64081",
+  "lat": 38.8978724,
+  "lng": -94.3776928,
+  "link": "https://harvesters.org/Service-Detail?id=25923&zip=66224&rad=30&type=-1"
+}

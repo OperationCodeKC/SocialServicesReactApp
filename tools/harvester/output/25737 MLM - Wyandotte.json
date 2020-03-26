@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "MLM - Wyandotte",
+  "Phone": "913-342-8333",
+  "Address": "722 Reynolds Avenue",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66101",
+  "lat": 39.1047099,
+  "lng": -94.627865,
+  "link": "https://harvesters.org/Service-Detail?id=25737&zip=66224&rad=30&type=-1"
+}

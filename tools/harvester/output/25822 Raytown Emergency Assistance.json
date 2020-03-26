@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Raytown Emergency Assistance",
+  "Phone": "816-356-0054",
+  "Address": "9300 E 75th Street",
+  "City": "Raytown",
+  "State": "MO",
+  "Zipcode": "64138",
+  "lat": 38.9873265,
+  "lng": -94.4728645,
+  "link": "https://harvesters.org/Service-Detail?id=25822&zip=66224&rad=30&type=-1"
+}

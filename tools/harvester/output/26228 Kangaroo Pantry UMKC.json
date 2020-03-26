@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Kangaroo Pantry UMKC",
+  "Phone": "816-235-1407",
+  "Address": "4825 Troost Room 103",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64110",
+  "lat": 39.0394507,
+  "lng": -94.57259859999999,
+  "link": "https://harvesters.org/Service-Detail?id=26228&zip=66224&rad=30&type=-1"
+}

@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Salvation Army",
+  "Phone": "816-756-2769",
+  "Address": "101 W Linwood Boulevard",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64111",
+  "lat": 39.0675234,
+  "lng": -94.58707009999999,
+  "link": "https://harvesters.org/Service-Detail?id=25863&zip=66224&rad=30&type=-1"
+}

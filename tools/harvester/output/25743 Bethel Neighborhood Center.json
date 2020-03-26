@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Bethel Neighborhood Center",
+  "Phone": "913-371-8218",
+  "Address": "1916 Central Avenue",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66102",
+  "lat": 39.1070403,
+  "lng": -94.65145249999999,
+  "link": "https://harvesters.org/Service-Detail?id=25743&zip=66224&rad=30&type=-1"
+}

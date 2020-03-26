@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Salvation Army",
+  "Phone": "785-843-4188",
+  "Address": "946 New Hampshire Street",
+  "City": "Lawrence",
+  "State": "KS",
+  "Zipcode": "66044",
+  "lat": 38.9659162,
+  "lng": -95.2344167,
+  "link": "https://harvesters.org/Service-Detail?id=26014&zip=66051&rad=30&type=-1"
+}

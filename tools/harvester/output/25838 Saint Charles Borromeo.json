@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Saint Charles Borromeo",
+  "Phone": "816-468-5153",
+  "Address": "900 NE Shady Lane Drive",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64118",
+  "lat": 39.2113144,
+  "lng": -94.570403,
+  "link": "https://harvesters.org/Service-Detail?id=25838&zip=66224&rad=30&type=-1"
+}

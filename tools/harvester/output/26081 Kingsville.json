@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Kingsville",
+  "Phone": "816-850-4694",
+  "Address": "104 NW Highway W",
+  "City": "Kingsville",
+  "State": "MO",
+  "Zipcode": "64061",
+  "lat": 38.7365493,
+  "lng": -94.04563139999999,
+  "link": "https://harvesters.org/Service-Detail?id=26081&zip=66224&rad=30&type=-1"
+}

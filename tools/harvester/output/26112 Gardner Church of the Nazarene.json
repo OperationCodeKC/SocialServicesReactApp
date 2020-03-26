@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Gardner Church of the Nazarene",
+  "Phone": "913-856-8307",
+  "Address": "16640 N Moonlight",
+  "City": "Gardner",
+  "State": "KS",
+  "Zipcode": "66030",
+  "lat": 38.826147,
+  "lng": -94.9095234,
+  "link": "https://harvesters.org/Service-Detail?id=26112&zip=66224&rad=30&type=-1"
+}

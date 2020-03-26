@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Harmon High School",
+  "Phone": "913-432-3141",
+  "Address": "2400 Steele Road",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66106",
+  "lat": 39.0634801,
+  "lng": -94.65666069999999,
+  "link": "https://harvesters.org/Service-Detail?id=26138&zip=66224&rad=30&type=-1"
+}

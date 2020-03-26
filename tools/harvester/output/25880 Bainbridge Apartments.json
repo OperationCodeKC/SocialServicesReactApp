@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Bainbridge Apartments",
+  "Phone": "816-807-5522",
+  "Address": "908 E Armour Boulevard",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64109",
+  "lat": 39.0635802,
+  "lng": -94.57368679999999,
+  "link": "https://harvesters.org/Service-Detail?id=25880&zip=66224&rad=30&type=-1"
+}

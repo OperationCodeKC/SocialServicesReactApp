@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Meet The Need",
+  "Phone": "816-630-5221",
+  "Address": "1302 N Jesse James Road",
+  "City": "Excelsior Springs",
+  "State": "MO",
+  "Zipcode": "64024",
+  "lat": 39.35869,
+  "lng": -94.2359788,
+  "link": "https://harvesters.org/Service-Detail?id=25907&zip=64129&rad=30&type=-1"
+}

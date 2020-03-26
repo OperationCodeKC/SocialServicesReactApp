@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Mimi's Pantry",
+  "Phone": "816-735-0220",
+  "Address": "2255 NW Vivion Road",
+  "City": "Riverside",
+  "State": "MO",
+  "Zipcode": "64150",
+  "lat": 39.1803248,
+  "lng": -94.60477159999999,
+  "link": "https://harvesters.org/Service-Detail?id=25824&zip=66224&rad=30&type=-1"
+}

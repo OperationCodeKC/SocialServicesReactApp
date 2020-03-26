@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Salvation Army",
+  "Phone": "816-753-6040",
+  "Address": "500 W 39th Street",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64111",
+  "lat": 39.0569774,
+  "lng": -94.5918679,
+  "link": "https://harvesters.org/Service-Detail?id=25722&zip=66224&rad=30&type=-1"
+}

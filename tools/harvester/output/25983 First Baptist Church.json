@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "First Baptist Church",
+  "Phone": "816-429-7088",
+  "Address": "336 N Gallatin Street",
+  "City": "Liberty",
+  "State": "MO",
+  "Zipcode": "64068",
+  "lat": 39.2497744,
+  "lng": -94.4215447,
+  "link": "https://harvesters.org/Service-Detail?id=25983&zip=64129&rad=30&type=-1"
+}

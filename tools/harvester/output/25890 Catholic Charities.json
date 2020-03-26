@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Catholic Charities",
+  "Phone": "816-659-8270",
+  "Address": "4001 Blue Parkway Suite 250",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64130",
+  "lat": 39.0345715,
+  "lng": -94.5372221,
+  "link": "https://harvesters.org/Service-Detail?id=25890&zip=66224&rad=30&type=-1"
+}

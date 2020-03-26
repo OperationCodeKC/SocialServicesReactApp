@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "CSL- Buckner",
+  "Phone": "816-249-5820",
+  "Address": "1001 S Sibley Street",
+  "City": "Buckner",
+  "State": "MO",
+  "Zipcode": "64016",
+  "lat": 39.1253759,
+  "lng": -94.1973426,
+  "link": "https://harvesters.org/Service-Detail?id=25717&zip=66224&rad=30&type=-1"
+}

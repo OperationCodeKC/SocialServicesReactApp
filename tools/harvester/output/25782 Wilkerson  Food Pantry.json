@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Wilkerson  Food Pantry",
+  "Phone": "816-781-3621",
+  "Address": "427 E Kansas Street",
+  "City": "Liberty",
+  "State": "MO",
+  "Zipcode": "64068",
+  "lat": 39.2457205,
+  "lng": -94.4155911,
+  "link": "https://harvesters.org/Service-Detail?id=25782&zip=64129&rad=30&type=-1"
+}

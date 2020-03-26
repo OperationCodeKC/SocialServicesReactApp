@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Hope City",
+  "Phone": "816-241-9931",
+  "Address": "5101 E 24th Street",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64127",
+  "lat": 39.0816265,
+  "lng": -94.5232472,
+  "link": "https://harvesters.org/Service-Detail?id=26022&zip=66224&rad=30&type=-1"
+}

@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Project Suppertime",
+  "Phone": "816-252-7977",
+  "Address": "1800 S Northern Boulevard",
+  "City": "Independence",
+  "State": "MO",
+  "Zipcode": "64052",
+  "lat": 39.0874883,
+  "lng": -94.4509736,
+  "link": "https://harvesters.org/Service-Detail?id=25845&zip=66224&rad=30&type=-1"
+}

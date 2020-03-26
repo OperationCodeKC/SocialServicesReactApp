@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Northland Assistance Center",
+  "Phone": "816-421-2243",
+  "Address": "2018 Gentry Street",
+  "City": "North Kansas City",
+  "State": "MO",
+  "Zipcode": "64116",
+  "lat": 39.1434501,
+  "lng": -94.57408989999999,
+  "link": "https://harvesters.org/Service-Detail?id=25730&zip=66224&rad=30&type=-1"
+}

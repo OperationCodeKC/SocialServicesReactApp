@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Catholic Charities",
+  "Phone": "913-782-4077",
+  "Address": "333 E Poplar Street",
+  "City": "Olathe",
+  "State": "KS",
+  "Zipcode": "66061",
+  "lat": 38.88481609999999,
+  "lng": -94.81622259999999,
+  "link": "https://harvesters.org/Service-Detail?id=26104&zip=66224&rad=30&type=-1"
+}

@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Heart of America",
+  "Phone": "816-356-6380",
+  "Address": "7600 Blue Ridge Boulevard",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64138",
+  "lat": 38.9869194,
+  "lng": -94.4834431,
+  "link": "https://harvesters.org/Service-Detail?id=25829&zip=66224&rad=30&type=-1"
+}

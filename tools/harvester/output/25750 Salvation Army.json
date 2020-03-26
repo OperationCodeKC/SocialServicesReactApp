@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Salvation Army",
+  "Phone": "816-252-3200",
+  "Address": "14700 E Truman Rd",
+  "City": "Independence",
+  "State": "MO",
+  "Zipcode": "64050",
+  "lat": 39.0944872,
+  "lng": -94.40523429999999,
+  "link": "https://harvesters.org/Service-Detail?id=25750&zip=66224&rad=30&type=-1"
+}

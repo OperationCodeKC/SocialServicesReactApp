@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Second Baptist Church",
+  "Phone": "816-461-6020",
+  "Address": "116 E White Oak",
+  "City": "Independence",
+  "State": "MO",
+  "Zipcode": "64050",
+  "lat": 39.0947112,
+  "lng": -94.41471250000001,
+  "link": "https://harvesters.org/Service-Detail?id=25974&zip=66224&rad=30&type=-1"
+}

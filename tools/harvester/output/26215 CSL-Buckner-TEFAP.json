@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "CSL-Buckner-TEFAP",
+  "Phone": "816-985-3726",
+  "Address": "1001 South Sibley Street",
+  "City": "Buckner",
+  "State": "MO",
+  "Zipcode": "64016",
+  "lat": 39.1253759,
+  "lng": -94.1973426,
+  "link": "https://harvesters.org/Service-Detail?id=26215&zip=66224&rad=30&type=-1"
+}

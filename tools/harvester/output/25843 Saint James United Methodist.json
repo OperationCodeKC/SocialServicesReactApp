@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Saint James United Methodist",
+  "Phone": "816-444-5588",
+  "Address": "5540 Wayne Avenue",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64110",
+  "lat": 39.0256012,
+  "lng": -94.5671979,
+  "link": "https://harvesters.org/Service-Detail?id=25843&zip=66224&rad=30&type=-1"
+}

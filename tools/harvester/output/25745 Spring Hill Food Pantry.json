@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Spring Hill Food Pantry",
+  "Phone": "913-592-5433",
+  "Address": "206 N Webster",
+  "City": "Spring Hill",
+  "State": "KS",
+  "Zipcode": "66083",
+  "lat": 38.7450109,
+  "lng": -94.8246037,
+  "link": "https://harvesters.org/Service-Detail?id=25745&zip=66224&rad=30&type=-1"
+}

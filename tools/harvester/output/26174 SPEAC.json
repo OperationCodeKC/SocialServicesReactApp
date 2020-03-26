@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "SPEAC",
+  "Phone": "816-746-1057",
+  "Address": "819 Main Street",
+  "City": "Parkville",
+  "State": "MO",
+  "Zipcode": "64152",
+  "lat": 39.19395069999999,
+  "lng": -94.6833542,
+  "link": "https://harvesters.org/Service-Detail?id=26174&zip=66224&rad=30&type=-1"
+}

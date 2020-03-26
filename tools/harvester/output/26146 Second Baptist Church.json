@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Second Baptist Church",
+  "Phone": "913-780-5553",
+  "Address": "331 N Kansas Avenue",
+  "City": "Olathe",
+  "State": "KS",
+  "Zipcode": "66061",
+  "lat": 38.8862515,
+  "lng": -94.8209191,
+  "link": "https://harvesters.org/Service-Detail?id=26146&zip=66224&rad=30&type=-1"
+}

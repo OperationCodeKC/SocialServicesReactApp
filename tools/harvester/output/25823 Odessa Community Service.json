@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Odessa Community Service",
+  "Phone": "816-230-7558",
+  "Address": "212 S 2nd Street",
+  "City": "Odessa",
+  "State": "MO",
+  "Zipcode": "64076",
+  "lat": 38.9986531,
+  "lng": -93.95342289999999,
+  "link": "https://harvesters.org/Service-Detail?id=25823&zip=64129&rad=30&type=-1"
+}

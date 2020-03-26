@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Johnson County Church",
+  "Phone": "913-962-7310",
+  "Address": "7300 Nieman Rd",
+  "City": "Shawnee",
+  "State": "KS",
+  "Zipcode": "66203",
+  "lat": 38.9958709,
+  "lng": -94.7150525,
+  "link": "https://harvesters.org/Service-Detail?id=26092&zip=66224&rad=30&type=-1"
+}

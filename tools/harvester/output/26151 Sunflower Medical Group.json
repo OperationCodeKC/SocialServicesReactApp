@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Sunflower Medical Group",
+  "Phone": "913-432-8922",
+  "Address": "2040 Hutton Road",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66109",
+  "lat": 39.1299179,
+  "lng": -94.8364284,
+  "link": "https://harvesters.org/Service-Detail?id=26151&zip=66224&rad=30&type=-1"
+}

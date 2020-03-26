@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Mountaintop Inc.",
+  "Phone": "816-241-1431",
+  "Address": "1700 E. Linwood Boulevard",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64109",
+  "lat": 39.069176,
+  "lng": -94.5626841,
+  "link": "https://harvesters.org/Service-Detail?id=26233&zip=66224&rad=30&type=-1"
+}

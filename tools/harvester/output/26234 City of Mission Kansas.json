@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "City of Mission Kansas",
+  "Phone": "913-433-6665",
+  "Address": "7401 Johnson Drive",
+  "City": "Overland Park",
+  "State": "KS",
+  "Zipcode": "66202",
+  "lat": 39.0208512,
+  "lng": -94.6720849,
+  "link": "https://harvesters.org/Service-Detail?id=26234&zip=66224&rad=30&type=-1"
+}

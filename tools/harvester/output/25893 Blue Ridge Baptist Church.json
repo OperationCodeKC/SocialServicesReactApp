@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Blue Ridge Baptist Church",
+  "Phone": "816-353-8140",
+  "Address": "9320 E 35th Street South",
+  "City": "Independence",
+  "State": "MO",
+  "Zipcode": "64052",
+  "lat": 39.0598503,
+  "lng": -94.4685099,
+  "link": "https://harvesters.org/Service-Detail?id=25893&zip=66224&rad=30&type=-1"
+}

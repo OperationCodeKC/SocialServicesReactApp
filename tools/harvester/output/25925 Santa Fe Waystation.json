@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Santa Fe Waystation",
+  "Phone": "913-722-2310",
+  "Address": "6422 Santa Fe Drive",
+  "City": "Overland Park",
+  "State": "KS",
+  "Zipcode": "66202",
+  "lat": 39.0117923,
+  "lng": -94.67284939999999,
+  "link": "https://harvesters.org/Service-Detail?id=25925&zip=66224&rad=30&type=-1"
+}

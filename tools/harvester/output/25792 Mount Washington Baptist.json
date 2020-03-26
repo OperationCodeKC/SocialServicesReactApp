@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Mount Washington Baptist",
+  "Phone": "816-254-5688",
+  "Address": "9623 Independence Avenue",
+  "City": "Independence",
+  "State": "MO",
+  "Zipcode": "64053",
+  "lat": 39.1027054,
+  "lng": -94.4627613,
+  "link": "https://harvesters.org/Service-Detail?id=25792&zip=66224&rad=30&type=-1"
+}

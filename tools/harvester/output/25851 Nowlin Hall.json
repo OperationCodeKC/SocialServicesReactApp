@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Nowlin Hall",
+  "Phone": "816-405-8797",
+  "Address": "1905 Hardesty Avenue",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64127",
+  "lat": 39.0887328,
+  "lng": -94.51772559999999,
+  "link": "https://harvesters.org/Service-Detail?id=25851&zip=66224&rad=30&type=-1"
+}

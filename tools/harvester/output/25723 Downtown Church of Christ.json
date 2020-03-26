@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Downtown Church of Christ",
+  "Phone": "816-241-9999",
+  "Address": "2010 Van Brunt Boulevard",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64127",
+  "lat": 39.08650799999999,
+  "lng": -94.521525,
+  "link": "https://harvesters.org/Service-Detail?id=25723&zip=66224&rad=30&type=-1"
+}

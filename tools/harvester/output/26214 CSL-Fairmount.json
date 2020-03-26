@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "CSL-Fairmount",
+  "Phone": "816-254-0046",
+  "Address": "800 South Hardy Avenue",
+  "City": "Independence",
+  "State": "MO",
+  "Zipcode": "64053",
+  "lat": 39.1004041,
+  "lng": -94.4556588,
+  "link": "https://harvesters.org/Service-Detail?id=26214&zip=66224&rad=30&type=-1"
+}

@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "The Rock of KC Church",
+  "Phone": "816-243-1400",
+  "Address": "12750 N Winan Road",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64163",
+  "lat": 39.3240559,
+  "lng": -94.6967997,
+  "link": "https://harvesters.org/Service-Detail?id=25920&zip=64129&rad=30&type=-1"
+}

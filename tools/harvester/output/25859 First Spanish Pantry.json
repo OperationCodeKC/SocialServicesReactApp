@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "First Spanish Pantry",
+  "Phone": "913-362-5207",
+  "Address": "3040 S 51st Street",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66106",
+  "lat": 39.0460373,
+  "lng": -94.6964362,
+  "link": "https://harvesters.org/Service-Detail?id=25859&zip=66224&rad=30&type=-1"
+}

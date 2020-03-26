@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "A. I. M. Food Pantry",
+  "Phone": "816-934-1367",
+  "Address": "710 W 224 Highway",
+  "City": "Wellington",
+  "State": "MO",
+  "Zipcode": "64097",
+  "lat": 39.1317481,
+  "lng": -93.99424839999999,
+  "link": "https://harvesters.org/Service-Detail?id=26058&zip=64129&rad=30&type=-1"
+}

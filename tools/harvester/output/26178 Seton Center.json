@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Seton Center",
+  "Phone": "816-581-4710",
+  "Address": "2816 East 23rd Street",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64127",
+  "lat": 39.0851408,
+  "lng": -94.5488237,
+  "link": "https://harvesters.org/Service-Detail?id=26178&zip=66224&rad=30&type=-1"
+}

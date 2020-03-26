@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Salvation Army",
+  "Phone": "816-452-5663",
+  "Address": "5306 North Oak Trafficway",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64118",
+  "lat": 39.189174,
+  "lng": -94.5776772,
+  "link": "https://harvesters.org/Service-Detail?id=25842&zip=66224&rad=30&type=-1"
+}

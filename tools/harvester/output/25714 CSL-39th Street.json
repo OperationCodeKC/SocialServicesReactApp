@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "CSL-39th Street",
+  "Phone": "816-254-8209",
+  "Address": "14506 E 39th Street",
+  "City": "Independence",
+  "State": "MO",
+  "Zipcode": "64055",
+  "lat": 39.0507317,
+  "lng": -94.4080017,
+  "link": "https://harvesters.org/Service-Detail?id=25714&zip=66224&rad=30&type=-1"
+}

@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Ruskin High School",
+  "Phone": "816-316-7400",
+  "Address": "7000 E 111th Street",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64134",
+  "lat": 38.922844,
+  "lng": -94.5071172,
+  "link": "https://harvesters.org/Service-Detail?id=26076&zip=66224&rad=30&type=-1"
+}

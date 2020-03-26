@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Bishop Sullivan Center",
+  "Phone": "816-561-8515",
+  "Address": "3936 Troost",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64110",
+  "lat": 39.0548607,
+  "lng": -94.57242719999999,
+  "link": "https://harvesters.org/Service-Detail?id=26189&zip=66224&rad=30&type=-1"
+}

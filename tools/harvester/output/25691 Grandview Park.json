@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Grandview Park",
+  "Phone": "816-804-7944",
+  "Address": "1613 Wilson Boulevard",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66102",
+  "lat": 39.1038567,
+  "lng": -94.6478198,
+  "link": "https://harvesters.org/Service-Detail?id=25691&zip=66224&rad=30&type=-1"
+}

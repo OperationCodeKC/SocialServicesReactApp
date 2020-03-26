@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Franklin Center Inc.",
+  "Phone": "913-213-3250",
+  "Address": "1403 Metropolitan Avenue",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66103",
+  "lat": 39.072154,
+  "lng": -94.644733,
+  "link": "https://harvesters.org/Service-Detail?id=26061&zip=66224&rad=30&type=-1"
+}

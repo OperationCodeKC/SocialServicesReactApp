@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "The Salvation Army",
+  "Phone": "816-483-8484",
+  "Address": "3013 East 9th Street Post Office Box 240049",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64124",
+  "lat": 39.1022176,
+  "lng": -94.5460779,
+  "link": "https://harvesters.org/Service-Detail?id=26200&zip=66224&rad=30&type=-1"
+}

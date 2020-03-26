@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Shawnee Community Services",
+  "Phone": "913-268-7746",
+  "Address": "11110 W 67th",
+  "City": "Shawnee",
+  "State": "KS",
+  "Zipcode": "66203",
+  "lat": 39.0079293,
+  "lng": -94.7156613,
+  "link": "https://harvesters.org/Service-Detail?id=25912&zip=66224&rad=30&type=-1"
+}

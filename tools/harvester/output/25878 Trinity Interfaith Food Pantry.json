@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Trinity Interfaith Food Pantry",
+  "Phone": "785-843-2207",
+  "Address": "1027 Vermont Street",
+  "City": "Lawrence",
+  "State": "KS",
+  "Zipcode": "66044",
+  "lat": 38.9646378,
+  "lng": -95.2374097,
+  "link": "https://harvesters.org/Service-Detail?id=25878&zip=66051&rad=30&type=-1"
+}

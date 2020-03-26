@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Woods Chapel",
+  "Phone": "816-795-8848 ",
+  "Address": "4725 Lakewood Way",
+  "City": "Lees Summit",
+  "State": "MO",
+  "Zipcode": "64064",
+  "lat": 38.9976758,
+  "lng": -94.35509739999999,
+  "link": "https://harvesters.org/Service-Detail?id=25885&zip=66224&rad=30&type=-1"
+}

@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Tabitha's House Food Pantry",
+  "Phone": "816-353-8758",
+  "Address": "9301 E 87th Street",
+  "City": "Raytown",
+  "State": "MO",
+  "Zipcode": "64138",
+  "lat": 38.9650706,
+  "lng": -94.4742225,
+  "link": "https://harvesters.org/Service-Detail?id=25841&zip=66224&rad=30&type=-1"
+}

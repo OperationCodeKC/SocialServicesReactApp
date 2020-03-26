@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Vernell's Pantry",
+  "Phone": "816-923-5815",
+  "Address": "3634 Brooklyn Avenue",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64109",
+  "lat": 39.0600777,
+  "lng": -94.5583324,
+  "link": "https://harvesters.org/Service-Detail?id=25738&zip=66224&rad=30&type=-1"
+}

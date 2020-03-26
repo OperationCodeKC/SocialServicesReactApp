@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Maple Woods",
+  "Phone": "816-604-3007",
+  "Address": "2601 NE Barry Road",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64156",
+  "lat": 39.246921,
+  "lng": -94.54785009999999,
+  "link": "https://harvesters.org/Service-Detail?id=26230&zip=66224&rad=30&type=-1"
+}

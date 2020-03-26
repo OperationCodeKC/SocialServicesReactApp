@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Harvest Church",
+  "Phone": "816-455-7777",
+  "Address": "4300 N Corrington",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64117",
+  "lat": 39.1713535,
+  "lng": -94.4974367,
+  "link": "https://harvesters.org/Service-Detail?id=25778&zip=66224&rad=30&type=-1"
+}

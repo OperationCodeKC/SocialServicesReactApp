@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Just Food",
+  "Phone": "785-856-7030",
+  "Address": "1000 East 11th Street",
+  "City": "Lawrence",
+  "State": "KS",
+  "Zipcode": "66046",
+  "lat": 38.9649175,
+  "lng": -95.2231196,
+  "link": "https://harvesters.org/Service-Detail?id=26071&zip=66051&rad=30&type=-1"
+}

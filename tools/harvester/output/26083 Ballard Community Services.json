@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Ballard Community Services",
+  "Phone": "785-842-0440",
+  "Address": "1930 Harper Main Indoor Arena",
+  "City": "Lawrence",
+  "State": "KS",
+  "Zipcode": "66044",
+  "lat": 38.9483255,
+  "lng": -95.21302469999999,
+  "link": "https://harvesters.org/Service-Detail?id=26083&zip=66051&rad=30&type=-1"
+}

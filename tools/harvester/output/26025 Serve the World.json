@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Serve the World",
+  "Phone": "816-942-1414",
+  "Address": "1414 E 103rd Street",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64131",
+  "lat": 38.9411247,
+  "lng": -94.5727002,
+  "link": "https://harvesters.org/Service-Detail?id=26025&zip=66224&rad=30&type=-1"
+}

@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Oakland Heights",
+  "Phone": "816-405-8967",
+  "Address": "2409 Michigan",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64127",
+  "lat": 39.0830589,
+  "lng": -94.5600449,
+  "link": "https://harvesters.org/Service-Detail?id=25973&zip=66224&rad=30&type=-1"
+}

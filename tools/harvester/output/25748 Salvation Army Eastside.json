@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Salvation Army Eastside",
+  "Phone": "816-483-8484",
+  "Address": "3013 E 9th Street",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64124",
+  "lat": 39.1021131,
+  "lng": -94.5461217,
+  "link": "https://harvesters.org/Service-Detail?id=25748&zip=66224&rad=30&type=-1"
+}

@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Catholic Charities",
+  "Phone": "913-432-3141",
+  "Address": "2220 Central Avenue",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66102",
+  "lat": 39.1085223,
+  "lng": -94.65500460000001,
+  "link": "https://harvesters.org/Service-Detail?id=26207&zip=66224&rad=30&type=-1"
+}

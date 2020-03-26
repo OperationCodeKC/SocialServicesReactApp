@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "CSL-Grain Valley",
+  "Phone": "816-355-0832",
+  "Address": "513 Gregg Street",
+  "City": "Grain Valley",
+  "State": "MO",
+  "Zipcode": "64029",
+  "lat": 39.0157836,
+  "lng": -94.19910360000002,
+  "link": "https://harvesters.org/Service-Detail?id=25719&zip=66224&rad=30&type=-1"
+}

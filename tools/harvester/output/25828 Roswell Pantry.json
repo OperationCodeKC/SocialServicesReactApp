@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Roswell Pantry",
+  "Phone": "913-621-0435",
+  "Address": "3004 N 27th Street",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66104",
+  "lat": 39.1399945,
+  "lng": -94.65944510000001,
+  "link": "https://harvesters.org/Service-Detail?id=25828&zip=66224&rad=30&type=-1"
+}

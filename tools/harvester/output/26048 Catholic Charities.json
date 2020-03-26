@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Catholic Charities",
+  "Phone": "785-856-2694",
+  "Address": "1330 Kasold",
+  "City": "Lawrence",
+  "State": "KS",
+  "Zipcode": "66044",
+  "lat": 38.9600713,
+  "lng": -95.27749779999999,
+  "link": "https://harvesters.org/Service-Detail?id=26048&zip=66051&rad=30&type=-1"
+}

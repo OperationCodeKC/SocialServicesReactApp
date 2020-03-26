@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "First Baptist Church",
+  "Phone": "785-843-0020",
+  "Address": "1330 Kasold Drive",
+  "City": "Lawrence",
+  "State": "KS",
+  "Zipcode": "66049",
+  "lat": 38.9600713,
+  "lng": -95.27749779999999,
+  "link": "https://harvesters.org/Service-Detail?id=25949&zip=66051&rad=30&type=-1"
+}

@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Saint Paul's Pantry (KCMO)",
+  "Phone": "816-292-8148",
+  "Address": "11 E 40th Street",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64111",
+  "lat": 39.0540605,
+  "lng": -94.5856644,
+  "link": "https://harvesters.org/Service-Detail?id=25900&zip=66224&rad=30&type=-1"
+}

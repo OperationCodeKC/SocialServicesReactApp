@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "CSL-Blue Springs",
+  "Phone": "816-229-0033",
+  "Address": "200 SW 10th Street",
+  "City": "Blue Springs",
+  "State": "MO",
+  "Zipcode": "64015",
+  "lat": 39.0172204,
+  "lng": -94.2765158,
+  "link": "https://harvesters.org/Service-Detail?id=25715&zip=66224&rad=30&type=-1"
+}

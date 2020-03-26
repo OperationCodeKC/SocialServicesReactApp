@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "The PEER Center",
+  "Phone": "816-404-6384",
+  "Address": "800 E 21st Street",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64108",
+  "lat": 39.0876932,
+  "lng": -94.5739286,
+  "link": "https://harvesters.org/Service-Detail?id=25990&zip=66224&rad=30&type=-1"
+}

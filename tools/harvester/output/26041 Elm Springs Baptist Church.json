@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Elm Springs Baptist Church",
+  "Phone": "816-258-2713",
+  "Address": "570 NW 1601 Road",
+  "City": "Kingsville",
+  "State": "MO",
+  "Zipcode": "64061",
+  "lat": 38.8560193,
+  "lng": -94.04334449999999,
+  "link": "https://harvesters.org/Service-Detail?id=26041&zip=66224&rad=30&type=-1"
+}

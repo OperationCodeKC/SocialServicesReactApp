@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Helping Hands of Odessa",
+  "Phone": "816-653-2048",
+  "Address": "209 W Mason",
+  "City": "Odessa",
+  "State": "MO",
+  "Zipcode": "64076",
+  "lat": 38.9994523,
+  "lng": -93.95414989999999,
+  "link": "https://harvesters.org/Service-Detail?id=25785&zip=64129&rad=30&type=-1"
+}

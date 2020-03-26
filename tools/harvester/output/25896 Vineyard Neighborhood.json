@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Vineyard Neighborhood",
+  "Phone": "816-921-5303",
+  "Address": "4301 E 43rd Street",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64130",
+  "lat": 39.0473516,
+  "lng": -94.5340604,
+  "link": "https://harvesters.org/Service-Detail?id=25896&zip=66224&rad=30&type=-1"
+}

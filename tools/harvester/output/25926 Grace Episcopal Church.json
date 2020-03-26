@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Grace Episcopal Church",
+  "Phone": "816-781-6262",
+  "Address": "520 S 291 Highway",
+  "City": "Liberty",
+  "State": "MO",
+  "Zipcode": "64068",
+  "lat": 39.2402628,
+  "lng": -94.4400163,
+  "link": "https://harvesters.org/Service-Detail?id=25926&zip=64129&rad=30&type=-1"
+}

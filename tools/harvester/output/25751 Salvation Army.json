@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Salvation Army",
+  "Phone": "913-957-5900",
+  "Address": "6721 State Avenue",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66102",
+  "lat": 39.1166654,
+  "lng": -94.7336073,
+  "link": "https://harvesters.org/Service-Detail?id=25751&zip=66224&rad=30&type=-1"
+}

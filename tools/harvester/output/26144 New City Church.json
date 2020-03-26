@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "New City Church",
+  "Phone": "479-459-6066",
+  "Address": "6100 Mastin Street",
+  "City": "Merriam",
+  "State": "KS",
+  "Zipcode": "66203",
+  "lat": 39.0170706,
+  "lng": -94.70439499999999,
+  "link": "https://harvesters.org/Service-Detail?id=26144&zip=66224&rad=30&type=-1"
+}

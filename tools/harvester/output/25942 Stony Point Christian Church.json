@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Stony Point Christian Church",
+  "Phone": "913-299-4821",
+  "Address": "149 S 78th Street",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66111",
+  "lat": 39.0948651,
+  "lng": -94.7602197,
+  "link": "https://harvesters.org/Service-Detail?id=25942&zip=66224&rad=30&type=-1"
+}

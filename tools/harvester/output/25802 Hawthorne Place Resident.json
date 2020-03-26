@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Hawthorne Place Resident",
+  "Phone": "816-895-9326",
+  "Address": "16995 E Dover Lane",
+  "City": "Independence",
+  "State": "MO",
+  "Zipcode": "64056",
+  "lat": 39.1144587,
+  "lng": -94.3774234,
+  "link": "https://harvesters.org/Service-Detail?id=25802&zip=66224&rad=30&type=-1"
+}

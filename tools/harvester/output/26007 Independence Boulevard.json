@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "Independence Boulevard",
+  "Phone": "816-231-0016 ",
+  "Address": "606 Gladstone Boulevard",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64124",
+  "lat": 39.1058652,
+  "lng": -94.54624539999999,
+  "link": "https://harvesters.org/Service-Detail?id=26007&zip=66224&rad=30&type=-1"
+}

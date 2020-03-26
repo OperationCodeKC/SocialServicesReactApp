@@ -1,0 +1,12 @@
+{
+  "Type": "FoodBank",
+  "Name": "East Side Baptist Church",
+  "Phone": "816-796-0955",
+  "Address": "19901 E 78 Highway",
+  "City": "Independence",
+  "State": "MO",
+  "Zipcode": "64057",
+  "lat": 39.0819923,
+  "lng": -94.34567100000001,
+  "link": "https://harvesters.org/Service-Detail?id=26063&zip=66224&rad=30&type=-1"
+}
