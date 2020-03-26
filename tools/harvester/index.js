@@ -24,19 +24,12 @@ const parseCityStateZip = s => {
   return [city, state, zip];
 };
 
-(async function() {
-  if (!fs.existsSync(output)) {
-    fs.mkdirSync(output);
-  }
-
-  const zip = "66224";
-  const radius = 10;
-  const serviceType = 1;
+const searchByZip = async (zip, radius = 30, serviceType = -1) => {
+  console.log(`seaching zip ${zip}...`);
   const $ = await downloadPage(
     `${rootUrl}/Get-Help/Service-Locator.aspx?locale=${zip}&radius=${radius}&serviceType=${serviceType}`
   );
 
-  const foodBanks = [];
   const results = $(".row.assistance-result");
   console.log(`${results.length} results`);
   const count = results.length;
@@ -53,7 +46,6 @@ const parseCityStateZip = s => {
     const link = `${rootUrl}${$(
       results[i].childNodes[1].childNodes[1].firstChild
     ).attr("href")}`;
-    // console.log($("div > div", results[i]).html());
     const id = link.match(/id=(\d+)/)[1];
     const filename = `./output/${id} ${name}.json`;
     // Skip if file already exists
@@ -79,7 +71,26 @@ const parseCityStateZip = s => {
       lng,
       link
     };
-    console.log(location);
     fs.writeFileSync(filename, JSON.stringify(location, undefined, 2));
   }
+};
+(async function() {
+  if (!fs.existsSync(output)) {
+    fs.mkdirSync(output);
+  }
+  const zips = fs.readFileSync("zips.txt", "utf-8").split("\n");
+  for (let i = 0; i < zips.length; i++) {
+    await searchByZip(zips[i]);
+  }
+  console.log("merging geoBanks.json...");
+  const geoJson = [];
+  fs.readdirSync(output).forEach(path => {
+    const json = fs.readFileSync(`${output}/${path}`, "utf-8");
+    geoJson.push(JSON.parse(json));
+  });
+  fs.writeFileSync(
+    "../../src/components/geoBanks.json",
+    JSON.stringify(geoJson, null, 2)
+  );
+  console.log("Done!");
 })();
