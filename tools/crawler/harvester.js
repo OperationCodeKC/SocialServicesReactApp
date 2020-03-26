@@ -80,6 +80,7 @@ const searchByZip = async (zip, radius = 30, serviceType = -1) => {
   }
   const zips = fs.readFileSync("zips.txt", "utf-8").split("\n");
   for (let i = 0; i < zips.length; i++) {
+    if (zips[i].startsWith("#")) continue;
     await searchByZip(zips[i]);
   }
   console.log("merging geoBanks.json...");

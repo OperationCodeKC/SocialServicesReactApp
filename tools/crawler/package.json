@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "harvester": "node harvester.js",
+    "findcare": "node findcare.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
