@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Planned Parenthood - Independence Health Center",
+  "Phone": "816-252-3800",
+  "Address": "815 N Noland Rd",
+  "City": "Independence",
+  "State": "MO",
+  "Zipcode": "64050",
+  "lat": 39.0993015,
+  "lng": -94.41250219999999,
+  "link": "https://findcare.org/details?clinic_id=21904"
+}

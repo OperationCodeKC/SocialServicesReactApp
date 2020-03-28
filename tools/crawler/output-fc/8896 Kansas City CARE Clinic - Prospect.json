@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Kansas City CARE Clinic - Prospect",
+  "Phone": "816-753-5144",
+  "Address": "2340 E Meyer Blvd",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64132",
+  "lat": 39.0100512,
+  "lng": -94.5573653,
+  "link": "https://findcare.org/details?clinic_id=8896"
+}

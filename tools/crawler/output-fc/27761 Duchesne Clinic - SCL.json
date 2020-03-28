@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Duchesne Clinic - SCL",
+  "Phone": "913-321-2626",
+  "Address": "636 Tauromee Ave",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66101",
+  "lat": 39.1120111,
+  "lng": -94.62592839999999,
+  "link": "https://findcare.org/details?clinic_id=27761"
+}

@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Kansas City CARE Clinic - Northeast - Joslyn",
+  "Phone": "816-753-5144",
+  "Address": "4601 Independence AVE",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64124",
+  "lat": 39.1053168,
+  "lng": -94.527867,
+  "link": "https://findcare.org/details?clinic_id=35469"
+}

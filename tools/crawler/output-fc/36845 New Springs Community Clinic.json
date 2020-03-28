@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "New Springs Community Clinic",
+  "Phone": "816-246-7474",
+  "Address": "1800 NE Independence Ave",
+  "City": "Lees Summit",
+  "State": "MO",
+  "Zipcode": "64086",
+  "lat": 38.946318,
+  "lng": -94.36670219999999,
+  "link": "https://findcare.org/details?clinic_id=36845"
+}

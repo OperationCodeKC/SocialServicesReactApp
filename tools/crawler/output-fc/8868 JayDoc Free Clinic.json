@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "JayDoc Free Clinic",
+  "Phone": "913-735-3447",
+  "Address": "300 Southwest Blvd",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66103",
+  "lat": 39.0686512,
+  "lng": -94.61298099999999,
+  "link": "https://findcare.org/details?clinic_id=8868"
+}

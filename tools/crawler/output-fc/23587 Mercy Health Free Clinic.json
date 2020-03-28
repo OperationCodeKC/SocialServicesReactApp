@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Mercy Health Free Clinic",
+  "Phone": "816-763-1666",
+  "Address": "9520 James A Reed Rd",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64134",
+  "lat": 38.9506124,
+  "lng": -94.4947447,
+  "link": "https://findcare.org/details?clinic_id=23587"
+}

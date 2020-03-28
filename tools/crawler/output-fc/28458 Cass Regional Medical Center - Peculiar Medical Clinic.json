@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Cass Regional Medical Center - Peculiar Medical Clinic",
+  "Phone": "816-779-1100",
+  "Address": "300 S Main St",
+  "City": "Peculiar",
+  "State": "MO",
+  "Zipcode": "64078",
+  "lat": 38.7138944,
+  "lng": -94.46118899999999,
+  "link": "https://findcare.org/details?clinic_id=28458"
+}

@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Kansas City CARE Clinic - Midtown",
+  "Phone": "816-753-5144",
+  "Address": "3515 Broadway Blvd",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64111",
+  "lat": 39.0633588,
+  "lng": -94.5903792,
+  "link": "https://findcare.org/details?clinic_id=8895"
+}

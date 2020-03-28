@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Swope Health West",
+  "Phone": "913-321-2200",
+  "Address": "6013 Leavenworth Rd",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66104",
+  "lat": 39.1428056,
+  "lng": -94.7187398,
+  "link": "https://findcare.org/details?clinic_id=6219"
+}

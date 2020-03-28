@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Planned Parenthood - Comprehensive Health Center",
+  "Phone": "913-345-1400",
+  "Address": "4401 W 109th St",
+  "City": "Overland Park",
+  "State": "KS",
+  "Zipcode": "66211",
+  "lat": 38.9310037,
+  "lng": -94.6367454,
+  "link": "https://findcare.org/details?clinic_id=21895"
+}

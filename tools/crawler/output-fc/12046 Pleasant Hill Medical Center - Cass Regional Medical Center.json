@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Pleasant Hill Medical Center - Cass Regional Medical Center",
+  "Phone": "816-540-2111",
+  "Address": "1601 N Hwy 7",
+  "City": "Pleasant Hill",
+  "State": "MO",
+  "Zipcode": "64080",
+  "lat": 38.8081056,
+  "lng": -94.26374229999999,
+  "link": "https://findcare.org/details?clinic_id=12046"
+}

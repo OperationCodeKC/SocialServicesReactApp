@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Saint Vincent Clinic - SCL",
+  "Phone": "913-651-8860",
+  "Address": "818 North 7th St",
+  "City": "Leavenworth",
+  "State": "KS",
+  "Zipcode": "66048",
+  "lat": 39.3252537,
+  "lng": -94.91979940000002,
+  "link": "https://findcare.org/details?clinic_id=27766"
+}

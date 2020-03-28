@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "UMKC School of Dentistry Student Clinic",
+  "Phone": "816-235-2100",
+  "Address": "650 E 25th St",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64108",
+  "lat": 39.0820711,
+  "lng": -94.577516,
+  "link": "https://findcare.org/details?clinic_id=36418"
+}

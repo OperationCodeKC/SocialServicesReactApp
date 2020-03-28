@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Southwest Boulevard Family Health Care",
+  "Phone": "913-722-3100",
+  "Address": "340 Southwest Blvd",
+  "City": "Kansas City",
+  "State": "KS",
+  "Zipcode": "66103",
+  "lat": 39.0682721,
+  "lng": -94.6134431,
+  "link": "https://findcare.org/details?clinic_id=31141"
+}

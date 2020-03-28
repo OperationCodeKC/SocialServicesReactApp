@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "The Medina Clinic",
+  "Phone": "816-214-5548",
+  "Address": "13013 Fuller Ave",
+  "City": "Grandview",
+  "State": "MO",
+  "Zipcode": "64030",
+  "lat": 38.8869813,
+  "lng": -94.5179654,
+  "link": "https://findcare.org/details?clinic_id=21278"
+}

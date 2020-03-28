@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Swope Health East",
+  "Phone": "816-922-1000",
+  "Address": "17844 E 23rd St S",
+  "City": "Independence",
+  "State": "MO",
+  "Zipcode": "64057",
+  "lat": 39.0792218,
+  "lng": -94.3712979,
+  "link": "https://findcare.org/details?clinic_id=29453"
+}

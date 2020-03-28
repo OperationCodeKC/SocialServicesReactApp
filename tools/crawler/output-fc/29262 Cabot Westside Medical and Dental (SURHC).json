@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Cabot Westside Medical and Dental (SURHC)",
+  "Phone": "816-471-0900",
+  "Address": "2121 Summit St",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64124",
+  "lat": 39.0872568,
+  "lng": -94.5934091,
+  "link": "https://findcare.org/details?clinic_id=29262"
+}

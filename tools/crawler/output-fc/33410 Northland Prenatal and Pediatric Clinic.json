@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Northland Prenatal and Pediatric Clinic",
+  "Phone": "816-449-8100",
+  "Address": "5330 N Oak Trfy",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64118",
+  "lat": 39.1912489,
+  "lng": -94.5769832,
+  "link": "https://findcare.org/details?clinic_id=33410"
+}

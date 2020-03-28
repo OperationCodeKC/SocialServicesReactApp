@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Swope Health Central",
+  "Phone": "816-923-5800",
+  "Address": "3801 Blue Pkwy",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64130",
+  "lat": 39.0350233,
+  "lng": -94.5399879,
+  "link": "https://findcare.org/details?clinic_id=22740"
+}

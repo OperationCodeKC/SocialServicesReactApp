@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Platte County Health Department - Parkville",
+  "Phone": "816-587-5998",
+  "Address": "1201 East St",
+  "City": "Parkville",
+  "State": "MO",
+  "Zipcode": "64152",
+  "lat": 39.1953053,
+  "lng": -94.68165289999999,
+  "link": "https://findcare.org/details?clinic_id=30737"
+}

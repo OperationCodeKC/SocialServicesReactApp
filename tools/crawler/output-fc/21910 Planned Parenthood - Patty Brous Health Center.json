@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Planned Parenthood - Patty Brous Health Center",
+  "Phone": "816-756-2277",
+  "Address": "1001 Emanuel Cleaver II Blvd",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64110",
+  "lat": 39.041474,
+  "lng": -94.573848,
+  "link": "https://findcare.org/details?clinic_id=21910"
+}

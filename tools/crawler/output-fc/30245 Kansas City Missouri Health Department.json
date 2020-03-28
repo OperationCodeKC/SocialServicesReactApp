@@ -1,0 +1,12 @@
+{
+  "Type": "HealthCenter",
+  "Name": "Kansas City Missouri Health Department",
+  "Phone": "816-513-6128",
+  "Address": "2400 Troost Avenue",
+  "City": "Kansas City",
+  "State": "MO",
+  "Zipcode": "64108",
+  "lat": 39.0833277,
+  "lng": -94.57134909999999,
+  "link": "https://findcare.org/details?clinic_id=30245"
+}
