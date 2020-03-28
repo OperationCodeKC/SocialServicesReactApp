@@ -1,41 +1,14 @@
 [
-    {   "Type": "Shelter",
-        "Name": "City Union Mission (Men's Shelter)",
-        "Address": "1108 E 10th St",
-        "City": "Kansas City",
-        "State": "MO",
-        "Zipcode": "64106",
-        "lat": "39.0459864",
-        "lng": "-94.6642841"
-      },
-      {
-        "Type": "Shelter",
-        "Name": "Mother's Refuge",
-        "Address": "14400 E 42 St S # 220",
-        "City": "Independence",
-        "State": "MO",
-        "Zipcode": "64055",
-        "lat": "39.0451235",
-        "lng": "-94.4102114"
-      },
-      {
-        "Type": "Shelter",
-        "Name": "Salvation Army",
-        "Address": "Salvation Army",
-        "City": "Kansas City",
-        "State": "MO",
-        "Zipcode": "64111",
-        "lat": "39.0675891",
-        "lng": "-94.5870871"
-      },
-      {
-        "Type": "Shelter",
-        "Name": "Project1020",
-        "Address": "725 W Park St",
-        "City": "Olathe",
-        "State": "KS",
-        "Zipcode": "66061",
-        "lat": "38.8813454",
-        "lng": "-94.8296177"
-      }
-    ]
+  {
+    "Type": "HealthCenter",
+    "Name": "Salvation Army - Johnson County Family Lodge",
+    "Phone": "(913)-829-0578",
+    "Address": "420 E. Santa Fe",
+    "City": "Olathe,",
+    "State": "KS",
+    "Zipcode": "66061",
+    "lat": 38.8841721,
+    "lng": -94.8150486,
+    "link": "https://shelterlist.comttps://www.shelterlist.com/details/salvation-army-johnson-county-family-lodge"
+  }
+]
