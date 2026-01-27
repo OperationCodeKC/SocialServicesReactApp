@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.7.0",
-    "csvtojson": "^2.0.10",
+    "csvtojson": "^2.0.13",
     "geojson": "^0.5.0",
     "mapbox-gl": "^1.6.1",
     "react": "^16.12.0",
